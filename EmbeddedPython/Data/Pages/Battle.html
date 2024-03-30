@@ -1,0 +1,131 @@
+<html>
+<head>
+<style>
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'scene_selector scene_selector scene_selector scene_selector output_window output_window'
+        'enemy_party_selector ally_party_selector setup_battle clear_battle output_window output_window'
+        'enemy1_label enemy2_label enemy3_label enemy4_label output_window output_window'
+        'enemy1_portrait enemy2_portrait enemy3_portrait enemy4_portrait output_window output_window'
+        'enemy1_data enemy2_data enemy3_data enemy4_data output_window output_window'
+        'ally1_label ally2_label ally3_label ally4_label output_window output_window'
+        'ally1_portrait ally2_portrait ally3_portrait ally4_portrait output_window output_window'
+        'ally1_data ally2_data ally3_data ally4_data output_window output_window'
+        'ally1_actions ally2_actions ally3_actions ally4_actions output_window output_window'
+        'submit_actions clear_actions blank blank blank blank';
+    grid-gap: 2px;
+    padding: 5px;
+}
+
+.grid-container > div {
+    text-align: center;
+    font-size: 30px;
+}
+
+.blank { grid-area: blank; }
+.scene_selector { grid-area: scene_selector; }
+.enemy_party_selector { grid-area: enemy_party_selector; }
+.ally_party_selector { grid-area: ally_party_selector; }
+.setup_battle { grid-area: setup_battle; }
+.clear_battle { grid-area: clear_battle; }
+.enemy1_label { grid-area: enemy1_label; }
+.enemy2_label { grid-area: enemy2_label; }
+.enemy3_label { grid-area: enemy3_label; }
+.enemy4_label { grid-area: enemy4_label; }
+.enemy1_portrait { grid-area: enemy1_portrait; }
+.enemy2_portrait { grid-area: enemy2_portrait; }
+.enemy3_portrait { grid-area: enemy3_portrait; }
+.enemy4_portrait { grid-area: enemy4_portrait; }
+.enemy1_data { grid-area: enemy1_data; }
+.enemy2_data { grid-area: enemy2_data; }
+.enemy3_data { grid-area: enemy3_data; }
+.enemy4_data { grid-area: enemy4_data; }
+.ally1_label { grid-area: ally1_label; }
+.ally2_label { grid-area: ally2_label; }
+.ally3_label { grid-area: ally3_label; }
+.ally4_label { grid-area: ally4_label; }
+.ally1_portrait { grid-area: ally1_portrait; }
+.ally2_portrait { grid-area: ally2_portrait; }
+.ally3_portrait { grid-area: ally3_portrait; }
+.ally4_portrait { grid-area: ally4_portrait; }
+.ally1_data { grid-area: ally1_data; }
+.ally2_data { grid-area: ally2_data; }
+.ally3_data { grid-area: ally3_data; }
+.ally4_data { grid-area: ally4_data; }
+.ally1_actions { grid-area: ally1_actions; }
+.ally2_actions { grid-area: ally2_actions; }
+.ally3_actions { grid-area: ally3_actions; }
+.ally4_actions { grid-area: ally4_actions; }
+.submit_actions { grid-area: submit_actions; }
+.clear_actions { grid-area: clear_actions; }
+.output_window { grid-area: output_window; resize: none; }
+
+.character_portrait {
+    max-height: 20vh;
+    max-width: 25vw;
+}
+
+.character_data {
+    min-height: 15vh;
+    resize: none;
+}
+
+.action_dropdown {
+    min-height: 4vh;
+}
+
+.action_button {
+    min-height: 4vh;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <select class="action_dropdown scene_selector" onchange="SwitchToScene(value)">
+        <option>Select Scene...</option>
+        <option value="MainMenu">MainMenu</option>
+    </select>
+
+    <p id="enemy1_label" class="enemy1_label">Enemy 1</p>
+    <p id="enemy2_label" class="enemy2_label">Enemy 2</p>
+    <p id="enemy3_label" class="enemy3_label">Enemy 3</p>
+    <p id="enemy4_label" class="enemy4_label">Enemy 4</p>
+    <p id="ally1_label" class="ally1_label">Ally 1</p>
+    <p id="ally2_label" class="ally2_label">Ally 2</p>
+    <p id="ally3_label" class="ally3_label">Ally 3</p>
+    <p id="ally4_label" class="ally4_label">Ally 4</p>
+
+    <textarea id="enemy1_data" class="character_data enemy1_data" readonly="readonly"></textarea>
+    <textarea id="enemy2_data" class="character_data enemy2_data" readonly="readonly"></textarea>
+    <textarea id="enemy3_data" class="character_data enemy3_data" readonly="readonly"></textarea>
+    <textarea id="enemy4_data" class="character_data enemy4_data" readonly="readonly"></textarea>
+    <textarea id="ally1_data" class="character_data ally1_data" readonly="readonly"></textarea>
+    <textarea id="ally2_data" class="character_data ally2_data" readonly="readonly"></textarea>
+    <textarea id="ally3_data" class="character_data ally3_data" readonly="readonly"></textarea>
+    <textarea id="ally4_data" class="character_data ally4_data" readonly="readonly"></textarea>
+    <textarea id="output_window" class="output_window" readonly="readonly"></textarea>
+
+    <img id="enemy1_portrait" class="character_portrait enemy1_portrait">
+    <img id="enemy2_portrait" class="character_portrait enemy2_portrait">
+    <img id="enemy3_portrait" class="character_portrait enemy3_portrait">
+    <img id="enemy4_portrait" class="character_portrait enemy4_portrait">
+    <img id="ally1_portrait" class="character_portrait ally1_portrait">
+    <img id="ally2_portrait" class="character_portrait ally2_portrait">
+    <img id="ally3_portrait" class="character_portrait ally3_portrait">
+    <img id="ally4_portrait" class="character_portrait ally4_portrait">
+
+    <select id="enemy_party_selector" class="action_dropdown enemy_party_selector"></select>
+    <select id="ally_party_selector" class="action_dropdown ally_party_selector"></select>
+    <select id="ally1_actions" class="action_dropdown ally1_actions"></select>
+    <select id="ally2_actions" class="action_dropdown ally2_actions"></select>
+    <select id="ally3_actions" class="action_dropdown ally3_actions"></select>
+    <select id="ally4_actions" class="action_dropdown ally4_actions"></select>
+
+    <button id="setup_battle" class="action_button setup_battle">Setup Battle</button>
+    <button id="clear_battle" class="action_button clear_battle">Clear Battle</button>
+    <button id="submit_actions" class="action_button submit_actions">Submit Actions</button>
+    <button id="clear_actions" class="action_button clear_actions">Clear Actions</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe I",
+        "SkillDescription": "Recipe I",
+        "DataClass": "RecipeI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe II",
+        "SkillDescription": "Recipe II",
+        "DataClass": "RecipeII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe III",
+        "SkillDescription": "Recipe III",
+        "DataClass": "RecipeIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe IV",
+        "SkillDescription": "Recipe IV",
+        "DataClass": "RecipeIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe V",
+        "SkillDescription": "Recipe V",
+        "DataClass": "RecipeV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Weaver",
+        "SkillName": "Bronze Master",
+        "SkillDescription": "Bronze Master",
+        "DataClass": "BronzeMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe VI",
+        "SkillDescription": "Recipe VI",
+        "DataClass": "RecipeVI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe VII",
+        "SkillDescription": "Recipe VII",
+        "DataClass": "RecipeVII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Weaver",
+        "SkillName": "Thread Mastery I",
+        "SkillDescription": "Thread Mastery I",
+        "DataClass": "ThreadMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Weaver",
+        "SkillName": "Weave Mastery I",
+        "SkillDescription": "Weave Mastery I",
+        "DataClass": "WeaveMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe VIII",
+        "SkillDescription": "Recipe VIII",
+        "DataClass": "RecipeVIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe IX",
+        "SkillDescription": "Recipe IX",
+        "DataClass": "RecipeIX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe X",
+        "SkillDescription": "Recipe X",
+        "DataClass": "RecipeX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe XI",
+        "SkillDescription": "Recipe XI",
+        "DataClass": "RecipeXI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe XII",
+        "SkillDescription": "Recipe XII",
+        "DataClass": "RecipeXII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Weaver",
+        "SkillName": "Iron Master",
+        "SkillDescription": "Iron Master",
+        "DataClass": "IronMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe XIII",
+        "SkillDescription": "Recipe XIII",
+        "DataClass": "RecipeXIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Weaver",
+        "SkillName": "Recipe XIV",
+        "SkillDescription": "Recipe XIV",
+        "DataClass": "RecipeXIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Weaver",
+        "SkillName": "Thread Mastery II",
+        "SkillDescription": "Thread Mastery II",
+        "DataClass": "ThreadMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Weaver",
+        "SkillName": "Weave Mastery II",
+        "SkillDescription": "Weave Mastery II",
+        "DataClass": "WeaveMastery",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

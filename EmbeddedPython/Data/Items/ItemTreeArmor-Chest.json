@@ -1,0 +1,82 @@
+{
+    "BronzeFylerianBreastplate": {
+        "ItemDescription": "Bronze Fylerian Breastplate",
+        "ItemName": "Bronze Fylerian Breastplate",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.25,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "BronzeScaleTunic": {
+        "ItemDescription": "Bronze Scale Tunic",
+        "ItemName": "Bronze Scale Tunic",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.05,
+        "PierceDefendPercent": 0.25,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "BronzeStuddedShirt": {
+        "ItemDescription": "Bronze Studded Shirt",
+        "ItemName": "Bronze Studded Shirt",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.25,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "BronzeWeaveShirt": {
+        "ItemDescription": "Bronze Weave Shirt",
+        "ItemName": "Bronze Weave Shirt",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.25,
+        "StatChanges": []
+    },
+    "IronFylerianBreastplate": {
+        "ItemDescription": "Iron Fylerian Breastplate",
+        "ItemName": "Iron Fylerian Breastplate",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.25,
+        "PierceDefendPercent": 0.25,
+        "SlashDefendPercent": 0.3,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronScaleTunic": {
+        "ItemDescription": "Iron Scale Tunic",
+        "ItemName": "Iron Scale Tunic",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.3,
+        "SlashDefendPercent": 0.25,
+        "MagicDefendPercent": 0.25,
+        "StatChanges": []
+    },
+    "IronStuddedShirt": {
+        "ItemDescription": "Iron Studded Shirt",
+        "ItemName": "Iron Studded Shirt",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.3,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.25,
+        "MagicDefendPercent": 0.25,
+        "StatChanges": []
+    },
+    "IronWeaveShirt": {
+        "ItemDescription": "Iron Weave Shirt",
+        "ItemName": "Iron Weave Shirt",
+        "ItemType": "ArmorChest",
+        "BluntDefendPercent": 0.25,
+        "PierceDefendPercent": 0.25,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.3,
+        "StatChanges": []
+    }
+}

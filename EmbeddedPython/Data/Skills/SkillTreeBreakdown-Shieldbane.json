@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Shieldbane",
+        "SkillName": "Apprentice Smelter I",
+        "SkillDescription": "Apprentice Smelter I",
+        "DataClass": "ApprenticeSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Shieldbane",
+        "SkillName": "Bronze Adept",
+        "SkillDescription": "Bronze Adept",
+        "DataClass": "BronzeAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Shieldbane",
+        "SkillName": "Quick Study I",
+        "SkillDescription": "Quick Study I",
+        "DataClass": "QuickStudy",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Shieldbane",
+        "SkillName": "Adept Smelter I",
+        "SkillDescription": "Adept Smelter I",
+        "DataClass": "AdeptSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Shieldbane",
+        "SkillName": "Adept Refiner I",
+        "SkillDescription": "Adept Refiner I",
+        "DataClass": "AdeptRefiner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Shieldbane",
+        "SkillName": "Keen Eye I",
+        "SkillDescription": "Keen Eye I",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Shieldbane",
+        "SkillName": "Master Smelter I",
+        "SkillDescription": "Master Smelter I",
+        "DataClass": "MasterSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Shieldbane",
+        "SkillName": "Bronze Master",
+        "SkillDescription": "Bronze Master",
+        "DataClass": "BronzeMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Shieldbane",
+        "SkillName": "Quick Study II",
+        "SkillDescription": "Quick Study II",
+        "DataClass": "QuickStudy",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Shieldbane",
+        "SkillName": "Master Refiner I",
+        "SkillDescription": "Master Refiner I",
+        "DataClass": "MasterRefiner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Shieldbane",
+        "SkillName": "Apprentice Smelter II",
+        "SkillDescription": "Apprentice Smelter II",
+        "DataClass": "ApprenticeSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Shieldbane",
+        "SkillName": "Iron Adept",
+        "SkillDescription": "Iron Adept",
+        "DataClass": "IronAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Shieldbane",
+        "SkillName": "Quick Study III",
+        "SkillDescription": "Quick Study III",
+        "DataClass": "QuickStudy",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Shieldbane",
+        "SkillName": "Adept Smelter II",
+        "SkillDescription": "Adept Smelter II",
+        "DataClass": "AdeptSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Shieldbane",
+        "SkillName": "Adept Refiner II",
+        "SkillDescription": "Adept Refiner II",
+        "DataClass": "AdeptRefiner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Shieldbane",
+        "SkillName": "Keen Eye II",
+        "SkillDescription": "Keen Eye II",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Shieldbane",
+        "SkillName": "Master Smelter II",
+        "SkillDescription": "Master Smelter II",
+        "DataClass": "MasterSmelter",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Shieldbane",
+        "SkillName": "Iron Master",
+        "SkillDescription": "Iron Master",
+        "DataClass": "IronMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Shieldbane",
+        "SkillName": "Quick Study IV",
+        "SkillDescription": "Quick Study IV",
+        "DataClass": "QuickStudy",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Shieldbane",
+        "SkillName": "Master Refiner II",
+        "SkillDescription": "Master Refiner II",
+        "DataClass": "MasterRefiner",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

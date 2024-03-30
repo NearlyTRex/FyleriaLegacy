@@ -1,0 +1,152 @@
+{
+    "VeryWeakMagicPotion": {
+        "ItemDescription": "Very Weak Magic Potion",
+        "ItemName": "Very Weak Magic Potion",
+        "ItemType": "PotionMagic",
+        "DataClass": "MagicPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionMagic"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsCurrent",
+                        "DestinationStatType": "MagicPointsCurrent",
+                        "FullPercent": 0.10,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "WeakMagicPotion": {
+        "ItemDescription": "Weak Magic Potion",
+        "ItemName": "Weak Magic Potion",
+        "ItemType": "PotionMagic",
+        "DataClass": "MagicPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionMagic"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsCurrent",
+                        "DestinationStatType": "MagicPointsCurrent",
+                        "FullPercent": 0.20,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "AverageMagicPotion": {
+        "ItemDescription": "Average Magic Potion",
+        "ItemName": "Average Magic Potion",
+        "ItemType": "PotionMagic",
+        "DataClass": "MagicPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionMagic"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsCurrent",
+                        "DestinationStatType": "MagicPointsCurrent",
+                        "FullPercent": 0.30,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "StrongMagicPotion": {
+        "ItemDescription": "Strong Magic Potion",
+        "ItemName": "Strong Magic Potion",
+        "ItemType": "PotionMagic",
+        "DataClass": "MagicPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionMagic"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsCurrent",
+                        "DestinationStatType": "MagicPointsCurrent",
+                        "FullPercent": 0.40,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "VeryStrongMagicPotion": {
+        "ItemDescription": "Very Strong Magic Potion",
+        "ItemName": "Very Strong Magic Potion",
+        "ItemType": "PotionMagic",
+        "DataClass": "MagicPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionMagic"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsCurrent",
+                        "DestinationStatType": "MagicPointsCurrent",
+                        "FullPercent": 0.50,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

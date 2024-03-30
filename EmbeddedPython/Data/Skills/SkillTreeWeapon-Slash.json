@@ -1,0 +1,794 @@
+{
+    "Rank0": {
+        "SkillRank": 0,
+        "SkillType": "Slash",
+        "SkillName": "Base Attack",
+        "SkillDescription": "Base Attack",
+        "DataClass": "BaseAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 0,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 0,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ]
+            }
+        ]
+    },
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Slash",
+        "SkillName": "Blade Mastery I",
+        "SkillDescription": "Blade Mastery I",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Slash",
+        "SkillName": "Endurance Fighter I",
+        "SkillDescription": "Endurance Fighter I",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Slash",
+        "SkillName": "Cunning Warrior I",
+        "SkillDescription": "Cunning Warrior I",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Slash",
+        "SkillName": "Deep Cut I",
+        "SkillDescription": "Deep Cut I",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Slash",
+        "SkillName": "Lightning Strikes I",
+        "SkillDescription": "Lightning Strikes I",
+        "DataClass": "LightningStrikes",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToApplyMultipleAttacks",
+                        "DestinationStatType": "ChanceToApplyMultipleAttacks",
+                        "FullPercent": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AttacksMultiplier",
+                        "DestinationStatType": "AttacksMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Slash",
+        "SkillName": "Blade Mastery II",
+        "SkillDescription": "Blade Mastery II",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Slash",
+        "SkillName": "Endurance Fighter II",
+        "SkillDescription": "Endurance Fighter II",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Slash",
+        "SkillName": "Cunning Warrior II",
+        "SkillDescription": "Cunning Warrior II",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Slash",
+        "SkillName": "Deep Cut II",
+        "SkillDescription": "Deep Cut II",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Slash",
+        "SkillName": "Lightning Strikes II",
+        "SkillDescription": "Lightning Strikes II",
+        "DataClass": "LightningStrikes",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToApplyMultipleAttacks",
+                        "DestinationStatType": "ChanceToApplyMultipleAttacks",
+                        "FullPercent": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AttacksMultiplier",
+                        "DestinationStatType": "AttacksMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Slash",
+        "SkillName": "Blade Mastery III",
+        "SkillDescription": "Blade Mastery III",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Slash",
+        "SkillName": "Endurance Fighter III",
+        "SkillDescription": "Endurance Fighter III",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Slash",
+        "SkillName": "Cunning Warrior III",
+        "SkillDescription": "Cunning Warrior III",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Slash",
+        "SkillName": "Deep Cut III",
+        "SkillDescription": "Deep Cut III",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Slash",
+        "SkillName": "Lightning Strikes III",
+        "SkillDescription": "Lightning Strikes III",
+        "DataClass": "LightningStrikes",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToApplyMultipleAttacks",
+                        "DestinationStatType": "ChanceToApplyMultipleAttacks",
+                        "FullPercent": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AttacksMultiplier",
+                        "DestinationStatType": "AttacksMultiplier",
+                        "FullFloat": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Slash",
+        "SkillName": "Blade Mastery IV",
+        "SkillDescription": "Blade Mastery IV",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Slash",
+        "SkillName": "Endurance Fighter IV",
+        "SkillDescription": "Endurance Fighter IV",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Slash",
+        "SkillName": "Cunning Warrior IV",
+        "SkillDescription": "Cunning Warrior IV",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Slash",
+        "SkillName": "Deep Cut IV",
+        "SkillDescription": "Deep Cut IV",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Slash",
+        "SkillName": "Lightning Strikes IV",
+        "SkillDescription": "Lightning Strikes IV",
+        "DataClass": "LightningStrikes",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponSlash"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToApplyMultipleAttacks",
+                        "DestinationStatType": "ChanceToApplyMultipleAttacks",
+                        "FullPercent": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AttacksMultiplier",
+                        "DestinationStatType": "AttacksMultiplier",
+                        "FullFloat": 5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

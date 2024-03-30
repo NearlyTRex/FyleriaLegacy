@@ -1,0 +1,242 @@
+{
+    "BronzeBattlehammer": {
+        "ItemDescription": "Bronze Battlehammer",
+        "ItemName": "Bronze Battlehammer",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponBreak",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeClub": {
+        "ItemDescription": "Bronze Club",
+        "ItemName": "Bronze Club",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponBreak",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeFlail": {
+        "ItemDescription": "Bronze Flail",
+        "ItemName": "Bronze Flail",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponCrack",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeMace": {
+        "ItemDescription": "Bronze Mace",
+        "ItemName": "Bronze Mace",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponCrack",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeMorningstar": {
+        "ItemDescription": "Bronze Morningstar",
+        "ItemName": "Bronze Morningstar",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponCrack",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeQuarterstaff": {
+        "ItemDescription": "Bronze Quarterstaff",
+        "ItemName": "Bronze Quarterstaff",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponImpact",
+            "WeaponCrack",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeWarFlail": {
+        "ItemDescription": "Bronze War Flail",
+        "ItemName": "Bronze War Flail",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponCrush",
+            "WeaponBreak",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeWarHammer": {
+        "ItemDescription": "Bronze War Hammer",
+        "ItemName": "Bronze War Hammer",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponBreak",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.5,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronBattlehammer": {
+        "ItemDescription": "Iron Battlehammer",
+        "ItemName": "Iron Battlehammer",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponBreak",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronClub": {
+        "ItemDescription": "Iron Club",
+        "ItemName": "Iron Club",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponBreak",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronFlail": {
+        "ItemDescription": "Iron Flail",
+        "ItemName": "Iron Flail",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponCrack",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronMace": {
+        "ItemDescription": "Iron Mace",
+        "ItemName": "Iron Mace",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponCrack",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronMorningstar": {
+        "ItemDescription": "Iron Morningstar",
+        "ItemName": "Iron Morningstar",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponCrush",
+            "WeaponCrack",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronQuarterstaff": {
+        "ItemDescription": "Iron Quarterstaff",
+        "ItemName": "Iron Quarterstaff",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponBash",
+            "WeaponImpact",
+            "WeaponCrack",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronWarFlail": {
+        "ItemDescription": "Iron War Flail",
+        "ItemName": "Iron War Flail",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponCrush",
+            "WeaponBreak",
+            "WeaponRush"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronWarHammer": {
+        "ItemDescription": "Iron War Hammer",
+        "ItemName": "Iron War Hammer",
+        "ItemType": "WeaponBlunt",
+        "ActionTypes": [
+            "WeaponSmash",
+            "WeaponImpact",
+            "WeaponBreak",
+            "WeaponBlock"
+        ],
+        "BluntAttackPercent": 0.55,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "BronzeFylerianHelm": {
+        "ItemDescription": "Bronze Fylerian Helm",
+        "ItemName": "Bronze Fylerian Helm",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.05,
+        "StatChanges": []
+    },
+    "BronzeScaleHelm": {
+        "ItemDescription": "Bronze Scale Helm",
+        "ItemName": "Bronze Scale Helm",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.05,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "BronzeStuddedHelmet": {
+        "ItemDescription": "Bronze Studded Helmet",
+        "ItemName": "Bronze Studded Helmet",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.05,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "BronzeWeaveHat": {
+        "ItemDescription": "Bronze Weave Hat",
+        "ItemName": "Bronze Weave Hat",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.05,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronFylerianHelm": {
+        "ItemDescription": "Iron Fylerian Helm",
+        "ItemName": "Iron Fylerian Helm",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "IronScaleHelm": {
+        "ItemDescription": "Iron Scale Helm",
+        "ItemName": "Iron Scale Helm",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronStuddedHelmet": {
+        "ItemDescription": "Iron Studded Helmet",
+        "ItemName": "Iron Studded Helmet",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronWeaveHat": {
+        "ItemDescription": "Iron Weave Hat",
+        "ItemName": "Iron Weave Hat",
+        "ItemType": "ArmorHead",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    }
+}

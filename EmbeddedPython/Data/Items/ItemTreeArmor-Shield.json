@@ -1,0 +1,182 @@
+{
+    "BronzeBuckler": {
+        "ItemDescription": "Bronze Buckler",
+        "ItemName": "Bronze Buckler",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.05,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzePointedBuckler": {
+        "ItemDescription": "Bronze Pointed Buckler",
+        "ItemName": "Bronze Pointed Buckler",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.05,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzePointedShield": {
+        "ItemDescription": "Bronze Pointed Shield",
+        "ItemName": "Bronze Pointed Shield",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzePointedTowerShield": {
+        "ItemDescription": "Bronze Pointed Tower Shield",
+        "ItemName": "Bronze Pointed Tower Shield",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeRoundShield": {
+        "ItemDescription": "Bronze Round Shield",
+        "ItemName": "Bronze Round Shield",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeSpikedBuckler": {
+        "ItemDescription": "Bronze Spiked Buckler",
+        "ItemName": "Bronze Spiked Buckler",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.05,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeSpikedShield": {
+        "ItemDescription": "Bronze Spiked Shield",
+        "ItemName": "Bronze Spiked Shield",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeSpikedTowerShield": {
+        "ItemDescription": "Bronze Spiked Tower Shield",
+        "ItemName": "Bronze Spiked Tower Shield",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeTowerShield": {
+        "ItemDescription": "Bronze Tower Shield",
+        "ItemName": "Bronze Tower Shield",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronBuckler": {
+        "ItemDescription": "Iron Buckler",
+        "ItemName": "Iron Buckler",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronPointedBuckler": {
+        "ItemDescription": "Iron Pointed Buckler",
+        "ItemName": "Iron Pointed Buckler",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronPointedShield": {
+        "ItemDescription": "Iron Pointed Shield",
+        "ItemName": "Iron Pointed Shield",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronPointedTowerShield": {
+        "ItemDescription": "Iron Pointed Tower Shield",
+        "ItemName": "Iron Pointed Tower Shield",
+        "ItemType": "ArmorShieldPierce",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronRoundShield": {
+        "ItemDescription": "Iron Round Shield",
+        "ItemName": "Iron Round Shield",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronSpikedBuckler": {
+        "ItemDescription": "Iron Spiked Buckler",
+        "ItemName": "Iron Spiked Buckler",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronSpikedShield": {
+        "ItemDescription": "Iron Spiked Shield",
+        "ItemName": "Iron Spiked Shield",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronSpikedTowerShield": {
+        "ItemDescription": "Iron Spiked Tower Shield",
+        "ItemName": "Iron Spiked Tower Shield",
+        "ItemType": "ArmorShieldSlash",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronTowerShield": {
+        "ItemDescription": "Iron Tower Shield",
+        "ItemName": "Iron Tower Shield",
+        "ItemType": "ArmorShieldBlunt",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    }
+}

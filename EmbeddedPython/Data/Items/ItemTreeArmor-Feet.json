@@ -1,0 +1,82 @@
+{
+    "BronzeFylerianBoots": {
+        "ItemDescription": "Bronze Fylerian Boots",
+        "ItemName": "Bronze Fylerian Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "BronzeScaleBoots": {
+        "ItemDescription": "Bronze Scale Boots",
+        "ItemName": "Bronze Scale Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "BronzeStuddedBoots": {
+        "ItemDescription": "Bronze Studded Boots",
+        "ItemName": "Bronze Studded Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "BronzeWeaveShoes": {
+        "ItemDescription": "Bronze Weave Shoes",
+        "ItemName": "Bronze Weave Shoes",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronFylerianBoots": {
+        "ItemDescription": "Iron Fylerian Boots",
+        "ItemName": "Iron Fylerian Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.25,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronScaleBoots": {
+        "ItemDescription": "Iron Scale Boots",
+        "ItemName": "Iron Scale Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.25,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronStuddedBoots": {
+        "ItemDescription": "Iron Studded Boots",
+        "ItemName": "Iron Studded Boots",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.25,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronWeaveShoes": {
+        "ItemDescription": "Iron Weave Shoes",
+        "ItemName": "Iron Weave Shoes",
+        "ItemType": "ArmorFeet",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.25,
+        "StatChanges": []
+    }
+}

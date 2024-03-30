@@ -1,0 +1,20 @@
+{
+    "BronzeBar": {
+        "ItemDescription": "Bronze Bar",
+        "ItemName": "Bronze Bar",
+        "ItemType": "IngredientBar",
+        "StatChanges": []
+    },
+    "IronBar": {
+        "ItemDescription": "Iron Bar",
+        "ItemName": "Iron Bar",
+        "ItemType": "IngredientBar",
+        "StatChanges": []
+    },
+    "SilverBar": {
+        "ItemDescription": "Silver Bar",
+        "ItemName": "Silver Bar",
+        "ItemType": "IngredientBar",
+        "StatChanges": []
+    }
+}

@@ -1,0 +1,496 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Rogue",
+        "SkillName": "Pointed Discord I",
+        "SkillDescription": "Pointed Discord I",
+        "DataClass": "PointedDiscord",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Rogue",
+        "SkillName": "Good Footwork I",
+        "SkillDescription": "Good Footwork I",
+        "DataClass": "GoodFootwork",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullInt": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Rogue",
+        "SkillName": "Defensive Warrior I",
+        "SkillDescription": "Defensive Warrior I",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Rogue",
+        "SkillName": "Dedicated Fury I",
+        "SkillDescription": "Dedicated Fury I",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "RequiredAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "RequiredPreviousAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Rogue",
+        "SkillName": "Pointed Discord II",
+        "SkillDescription": "Pointed Discord II",
+        "DataClass": "PointedDiscord",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Rogue",
+        "SkillName": "Good Footwork II",
+        "SkillDescription": "Good Footwork II",
+        "DataClass": "GoodFootwork",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Rogue",
+        "SkillName": "Defensive Warrior II",
+        "SkillDescription": "Defensive Warrior II",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Rogue",
+        "SkillName": "Dedicated Fury II",
+        "SkillDescription": "Dedicated Fury II",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "RequiredAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "RequiredPreviousAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Rogue",
+        "SkillName": "Pointed Discord III",
+        "SkillDescription": "Pointed Discord III",
+        "DataClass": "PointedDiscord",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Rogue",
+        "SkillName": "Good Footwork III",
+        "SkillDescription": "Good Footwork III",
+        "DataClass": "GoodFootwork",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Rogue",
+        "SkillName": "Defensive Warrior III",
+        "SkillDescription": "Defensive Warrior III",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Rogue",
+        "SkillName": "Dedicated Fury III",
+        "SkillDescription": "Dedicated Fury III",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "RequiredAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "RequiredPreviousAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.15,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Rogue",
+        "SkillName": "Pointed Discord IV",
+        "SkillDescription": "Pointed Discord IV",
+        "DataClass": "PointedDiscord",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.15,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Rogue",
+        "SkillName": "Good Footwork IV",
+        "SkillDescription": "Good Footwork IV",
+        "DataClass": "GoodFootwork",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullInt": 4,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Rogue",
+        "SkillName": "Defensive Warrior IV",
+        "SkillDescription": "Defensive Warrior IV",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Rogue",
+        "SkillName": "Dedicated Fury IV",
+        "SkillDescription": "Dedicated Fury IV",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "RequiredAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "RequiredPreviousAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Rogue",
+        "SkillName": "Pointed Discord V",
+        "SkillDescription": "Pointed Discord V",
+        "DataClass": "PointedDiscord",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Rogue",
+        "SkillName": "Good Footwork V",
+        "SkillDescription": "Good Footwork V",
+        "DataClass": "GoodFootwork",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullInt": 5,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Rogue",
+        "SkillName": "Defensive Warrior V",
+        "SkillDescription": "Defensive Warrior V",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Rogue",
+        "SkillName": "Dedicated Fury V",
+        "SkillDescription": "Dedicated Fury V",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesAND": [
+                    "WeaponPierce"
+                ],
+                "RequiredAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "RequiredPreviousAttackTypesAND": [
+                    "WeaponBasePierce"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.25,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

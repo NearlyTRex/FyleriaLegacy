@@ -1,0 +1,487 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe I Novice",
+        "SkillDescription": "Recipe I Novice",
+        "DataClass": "RecipeI",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 4,
+                        "InputIngredientName": "BlueCrystalShard"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "VeryWeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe I Adept",
+        "SkillDescription": "Recipe I Adept",
+        "DataClass": "RecipeI",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "BlueCrystalShard"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "VeryWeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Alchemist",
+        "SkillName": "Crossbrew I",
+        "SkillDescription": "Crossbrew I",
+        "DataClass": "Crossbrew",
+        "Recipes": [],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesAND": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe I Master",
+        "SkillDescription": "Recipe I Master",
+        "DataClass": "RecipeI",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "BlueCrystalShard"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 2,
+                        "OutputPotionName": "VeryWeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe II Novice",
+        "SkillDescription": "Recipe II Novice",
+        "DataClass": "RecipeII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 4,
+                        "InputIngredientName": "TinyBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "WeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe II Adept",
+        "SkillDescription": "Recipe II Adept",
+        "DataClass": "RecipeII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "TinyBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "WeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Alchemist",
+        "SkillName": "Crossbrew II",
+        "SkillDescription": "Crossbrew II",
+        "DataClass": "Crossbrew",
+        "Recipes": [],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesAND": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 1.10,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe II Master",
+        "SkillDescription": "Recipe II Master",
+        "DataClass": "RecipeII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "TinyBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 2,
+                        "OutputPotionName": "WeakMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe III Novice",
+        "SkillDescription": "Recipe III Novice",
+        "DataClass": "RecipeIII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 4,
+                        "InputIngredientName": "SmallBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "AverageMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe III Adept",
+        "SkillDescription": "Recipe III Adept",
+        "DataClass": "RecipeIII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "SmallBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "AverageMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Alchemist",
+        "SkillName": "Crossbrew III",
+        "SkillDescription": "Crossbrew III",
+        "DataClass": "Crossbrew",
+        "Recipes": [],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesAND": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe III Master",
+        "SkillDescription": "Recipe III Master",
+        "DataClass": "RecipeIII",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "SmallBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 2,
+                        "OutputPotionName": "AverageMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe IV Novice",
+        "SkillDescription": "Recipe IV Novice",
+        "DataClass": "RecipeIV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 4,
+                        "InputIngredientName": "BlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "StrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe IV Adept",
+        "SkillDescription": "Recipe IV Adept",
+        "DataClass": "RecipeIV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "BlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "StrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Alchemist",
+        "SkillName": "Crossbrew IV",
+        "SkillDescription": "Crossbrew IV",
+        "DataClass": "Crossbrew",
+        "Recipes": [],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesAND": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 1.20,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe IV Master",
+        "SkillDescription": "Recipe IV Master",
+        "DataClass": "RecipeIV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "BlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 2,
+                        "OutputPotionName": "StrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe V Novice",
+        "SkillDescription": "Recipe V Novice",
+        "DataClass": "RecipeV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 4,
+                        "InputIngredientName": "LargeBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "VeryStrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe V Adept",
+        "SkillDescription": "Recipe V Adept",
+        "DataClass": "RecipeV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "LargeBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 1,
+                        "OutputPotionName": "VeryStrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Alchemist",
+        "SkillName": "Crossbrew V",
+        "SkillDescription": "Crossbrew V",
+        "DataClass": "Crossbrew",
+        "Recipes": [],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesAND": [
+                    "PotionMagic"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 1.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Alchemist",
+        "SkillName": "Recipe V Master",
+        "SkillDescription": "Recipe V Master",
+        "DataClass": "RecipeV",
+        "Recipes": [
+            {
+                "Ingredients": [
+                    {
+                        "InputAmount": 2,
+                        "InputIngredientName": "LargeBlueCrystal"
+                    }
+                ],
+                "Results": [
+                    {
+                        "OutputAmount": 2,
+                        "OutputPotionName": "VeryStrongMagicPotion"
+                    }
+                ]
+            }
+        ],
+        "StatChanges": []
+    }
+}

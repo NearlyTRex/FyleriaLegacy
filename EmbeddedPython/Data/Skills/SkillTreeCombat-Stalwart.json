@@ -1,0 +1,491 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Stalwart",
+        "SkillName": "Shielded Assault I",
+        "SkillDescription": "Shielded Assault I",
+        "DataClass": "ShieldedAssault",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Stalwart",
+        "SkillName": "Metal Deterrent I",
+        "SkillDescription": "Metal Deterrent I",
+        "DataClass": "MetalDeterrent",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Stalwart",
+        "SkillName": "Aerodynamic I",
+        "SkillDescription": "Aerodynamic I",
+        "DataClass": "Aerodynamic",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Stalwart",
+        "SkillName": "Shield Punch I",
+        "SkillDescription": "Shield Punch I",
+        "DataClass": "ShieldPunch",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 5,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "ActionTargetsThisRound",
+                "DestinationTargetType": "ActionTargetsThisRound"
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Stalwart",
+        "SkillName": "Shielded Assault II",
+        "SkillDescription": "Shielded Assault II",
+        "DataClass": "ShieldedAssault",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Stalwart",
+        "SkillName": "Extra Plated I",
+        "SkillDescription": "Extra Plated I",
+        "DataClass": "ExtraPlated",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Stalwart",
+        "SkillName": "Cautious Cunning I",
+        "SkillDescription": "Cautious Cunning I",
+        "DataClass": "CautiousCunning",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Stalwart",
+        "SkillName": "Shield Charge I",
+        "SkillDescription": "Shield Charge I",
+        "DataClass": "ShieldCharge",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 10,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EquippedShieldLeftBluntRating",
+                        "DestinationStatType": "EquippedShieldLeftBluntRating",
+                        "FullPercent": 3.0,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EquippedShieldRightBluntRating",
+                        "DestinationStatType": "EquippedShieldRightBluntRating",
+                        "FullPercent": 3.0,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Stalwart",
+        "SkillName": "Shielded Assault III",
+        "SkillDescription": "Shielded Assault III",
+        "DataClass": "ShieldedAssault",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Stalwart",
+        "SkillName": "Metal Deterrent II",
+        "SkillDescription": "Metal Deterrent II",
+        "DataClass": "MetalDeterrent",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Stalwart",
+        "SkillName": "Aerodynamic II",
+        "SkillDescription": "Aerodynamic II",
+        "DataClass": "Aerodynamic",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Stalwart",
+        "SkillName": "Shield Punch II",
+        "SkillDescription": "Shield Punch II",
+        "DataClass": "ShieldPunch",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 4,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "ActionTargetsThisRound",
+                "DestinationTargetType": "ActionTargetsThisRound"
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Stalwart",
+        "SkillName": "Shielded Assault IV",
+        "SkillDescription": "Shielded Assault IV",
+        "DataClass": "ShieldedAssault",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.75,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Stalwart",
+        "SkillName": "Extra Plated II",
+        "SkillDescription": "Extra Plated II",
+        "DataClass": "ExtraPlated",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Stalwart",
+        "SkillName": "Cautious Cunning II",
+        "SkillDescription": "Cautious Cunning II",
+        "DataClass": "CautiousCunning",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Stalwart",
+        "SkillName": "Shield Charge II",
+        "SkillDescription": "Shield Charge II",
+        "DataClass": "ShieldCharge",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 9,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EquippedShieldLeftBluntRating",
+                        "DestinationStatType": "EquippedShieldLeftBluntRating",
+                        "FullPercent": 3.0,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EquippedShieldRightBluntRating",
+                        "DestinationStatType": "EquippedShieldRightBluntRating",
+                        "FullPercent": 3.0,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Stalwart",
+        "SkillName": "Shielded Assault V",
+        "SkillDescription": "Shielded Assault V",
+        "DataClass": "ShieldedAssault",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Stalwart",
+        "SkillName": "Metal Deterrent III",
+        "SkillDescription": "Metal Deterrent III",
+        "DataClass": "MetalDeterrent",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Stalwart",
+        "SkillName": "Aerodynamic III",
+        "SkillDescription": "Aerodynamic III",
+        "DataClass": "Aerodynamic",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Stalwart",
+        "SkillName": "Shield Punch III",
+        "SkillDescription": "Shield Punch III",
+        "DataClass": "ShieldPunch",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 3,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 1,
+                "SourceTargetType": "ActionTargetsThisRound",
+                "DestinationTargetType": "ActionTargetsThisRound"
+            }
+        ]
+    }
+}

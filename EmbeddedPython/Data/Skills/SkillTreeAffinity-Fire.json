@@ -1,0 +1,461 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Fire",
+        "SkillName": "Fire Alignment I",
+        "SkillDescription": "Fire Alignment I",
+        "DataClass": "FireAlignment",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Fire",
+        "SkillName": "Spellcaster I",
+        "SkillDescription": "Spellcaster I",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Fire",
+        "SkillName": "Power Player I",
+        "SkillDescription": "Power Player I",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Fire",
+        "SkillName": "Fire Absorption I",
+        "SkillDescription": "Fire Absorption I",
+        "DataClass": "FireAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Fire",
+        "SkillName": "Gem Juicer I",
+        "SkillDescription": "Gem Juicer I",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "RubyValueDelta",
+                        "DestinationStatType": "RubyValueDelta",
+                        "FullInt": 1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Fire",
+        "SkillName": "Fire Alignment II",
+        "SkillDescription": "Fire Alignment II",
+        "DataClass": "FireAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Fire",
+        "SkillName": "Spellcaster II",
+        "SkillDescription": "Spellcaster II",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Fire",
+        "SkillName": "Power Player II",
+        "SkillDescription": "Power Player II",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Fire",
+        "SkillName": "Fire Absorption II",
+        "SkillDescription": "Fire Absorption II",
+        "DataClass": "FireAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Fire",
+        "SkillName": "Gem Juicer II",
+        "SkillDescription": "Gem Juicer II",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "RubyValueDelta",
+                        "DestinationStatType": "RubyValueDelta",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Fire",
+        "SkillName": "Fire Alignment III",
+        "SkillDescription": "Fire Alignment III",
+        "DataClass": "FireAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Fire",
+        "SkillName": "Spellcaster III",
+        "SkillDescription": "Spellcaster III",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Fire",
+        "SkillName": "Power Player III",
+        "SkillDescription": "Power Player III",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Fire",
+        "SkillName": "Fire Absorption III",
+        "SkillDescription": "Fire Absorption III",
+        "DataClass": "FireAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Fire",
+        "SkillName": "Gem Juicer III",
+        "SkillDescription": "Gem Juicer III",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "RubyValueDelta",
+                        "DestinationStatType": "RubyValueDelta",
+                        "FullInt": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Fire",
+        "SkillName": "Fire Alignment IV",
+        "SkillDescription": "Fire Alignment IV",
+        "DataClass": "FireAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Fire",
+        "SkillName": "Spellcaster IV",
+        "SkillDescription": "Spellcaster IV",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Fire",
+        "SkillName": "Power Player IV",
+        "SkillDescription": "Power Player IV",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Fire",
+        "SkillName": "Fire Absorption IV",
+        "SkillDescription": "Fire Absorption IV",
+        "DataClass": "FireAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellFire",
+                    "PowerFire"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Fire",
+        "SkillName": "Gem Juicer IV",
+        "SkillDescription": "Gem Juicer IV",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "RubyValueDelta",
+                        "DestinationStatType": "RubyValueDelta",
+                        "FullInt": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

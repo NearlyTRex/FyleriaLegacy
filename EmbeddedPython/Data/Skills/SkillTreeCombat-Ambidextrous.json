@@ -1,0 +1,566 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Overly Aggressive I",
+        "SkillDescription": "Overly Aggressive I",
+        "DataClass": "OverlyAggressive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "WeaponPrimaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponPrimaryDamageBonusPercent",
+                        "FullFloat": 0.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "WeaponSecondaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponSecondaryDamageBonusPercent",
+                        "FullFloat": 0.5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Offense As Defense I",
+        "SkillDescription": "Offense As Defense I",
+        "DataClass": "OffenseAsDefense",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Well Balanced I",
+        "SkillDescription": "Well Balanced I",
+        "DataClass": "WellBalanced",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Twin Attack I",
+        "SkillDescription": "Twin Attack I",
+        "DataClass": "TwinAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 5,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "TargetsMustBeIdentical",
+                        "DestinationStatType": "TargetsMustBeIdentical",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AllowedTargetAmount",
+                        "DestinationStatType": "AllowedTargetAmount",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Overly Aggressive II",
+        "SkillDescription": "Overly Aggressive II",
+        "DataClass": "OverlyAggressive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "WeaponPrimaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponPrimaryDamageBonusPercent",
+                        "FullFloat": 0.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "WeaponSecondaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponSecondaryDamageBonusPercent",
+                        "FullFloat": 0.5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Extra Protective I",
+        "SkillDescription": "Extra Protective I",
+        "DataClass": "ExtraProtective",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Double Damage I",
+        "SkillDescription": "Double Damage I",
+        "DataClass": "DoubleDamage",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 0.5,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Split Focus I",
+        "SkillDescription": "Split Focus I",
+        "DataClass": "SplitFocus",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 10,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AllowedTargetAmount",
+                        "DestinationStatType": "AllowedTargetAmount",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Overly Aggressive III",
+        "SkillDescription": "Overly Aggressive III",
+        "DataClass": "OverlyAggressive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "WeaponPrimaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponPrimaryDamageBonusPercent",
+                        "FullFloat": 0.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "WeaponSecondaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponSecondaryDamageBonusPercent",
+                        "FullFloat": 0.75,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Offense As Defense II",
+        "SkillDescription": "Offense As Defense II",
+        "DataClass": "OffenseAsDefense",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Well Balanced II",
+        "SkillDescription": "Well Balanced II",
+        "DataClass": "WellBalanced",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Twin Attack II",
+        "SkillDescription": "Twin Attack II",
+        "DataClass": "TwinAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 4,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "TargetsMustBeIdentical",
+                        "DestinationStatType": "TargetsMustBeIdentical",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AllowedTargetAmount",
+                        "DestinationStatType": "AllowedTargetAmount",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Overly Aggressive IV",
+        "SkillDescription": "Overly Aggressive IV",
+        "DataClass": "OverlyAggressive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "WeaponPrimaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponPrimaryDamageBonusPercent",
+                        "FullFloat": 1.0,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "WeaponSecondaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponSecondaryDamageBonusPercent",
+                        "FullFloat": 0.75,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Extra Protective II",
+        "SkillDescription": "Extra Protective II",
+        "DataClass": "ExtraProtective",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Double Damage II",
+        "SkillDescription": "Double Damage II",
+        "DataClass": "DoubleDamage",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Split Focus II",
+        "SkillDescription": "Split Focus II",
+        "DataClass": "SplitFocus",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 10,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AllowedTargetAmount",
+                        "DestinationStatType": "AllowedTargetAmount",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Overly Aggressive V",
+        "SkillDescription": "Overly Aggressive V",
+        "DataClass": "OverlyAggressive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "WeaponPrimaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponPrimaryDamageBonusPercent",
+                        "FullFloat": 1.0,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "WeaponSecondaryDamageBonusPercent",
+                        "DestinationStatType": "WeaponSecondaryDamageBonusPercent",
+                        "FullFloat": 1.0,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Offense As Defense III",
+        "SkillDescription": "Offense As Defense III",
+        "DataClass": "OffenseAsDefense",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Well Balanced III",
+        "SkillDescription": "Well Balanced III",
+        "DataClass": "WellBalanced",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Ambidextrous",
+        "SkillName": "Twin Attack III",
+        "SkillDescription": "Twin Attack III",
+        "DataClass": "TwinAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 3,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 2,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "TargetsMustBeIdentical",
+                        "DestinationStatType": "TargetsMustBeIdentical",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "AllowedTargetAmount",
+                        "DestinationStatType": "AllowedTargetAmount",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

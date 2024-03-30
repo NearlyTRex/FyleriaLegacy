@@ -1,0 +1,14 @@
+{
+    "BronzeStudPouch": {
+        "ItemDescription": "Bronze Stud Pouch",
+        "ItemName": "Bronze Stud Pouch",
+        "ItemType": "IngredientStud",
+        "StatChanges": []
+    },
+    "IronStudPouch": {
+        "ItemDescription": "Iron Stud Pouch",
+        "ItemName": "Iron Stud Pouch",
+        "ItemType": "IngredientStud",
+        "StatChanges": []
+    }
+}

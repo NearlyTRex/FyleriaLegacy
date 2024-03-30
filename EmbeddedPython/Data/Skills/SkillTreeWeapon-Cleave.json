@@ -1,0 +1,774 @@
+{
+    "Rank0": {
+        "SkillRank": 0,
+        "SkillType": "Cleave",
+        "SkillName": "Base Attack",
+        "SkillDescription": "Base Attack",
+        "DataClass": "BaseAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 0,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 0,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ]
+            }
+        ]
+    },
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Cleave",
+        "SkillName": "Blade Mastery I",
+        "SkillDescription": "Blade Mastery I",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 5,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Cleave",
+        "SkillName": "Endurance Fighter I",
+        "SkillDescription": "Endurance Fighter I",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 10,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Cleave",
+        "SkillName": "Cunning Warrior I",
+        "SkillDescription": "Cunning Warrior I",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 10,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Cleave",
+        "SkillName": "Deep Cut I",
+        "SkillDescription": "Deep Cut I",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 10,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Cleave",
+        "SkillName": "Forceful Swing I",
+        "SkillDescription": "Forceful Swing I",
+        "DataClass": "ForcefulSwing",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "ChanceToApply": 0.5,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 0.95,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Cleave",
+        "SkillName": "Blade Mastery II",
+        "SkillDescription": "Blade Mastery II",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 10,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Cleave",
+        "SkillName": "Endurance Fighter II",
+        "SkillDescription": "Endurance Fighter II",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Cleave",
+        "SkillName": "Cunning Warrior II",
+        "SkillDescription": "Cunning Warrior II",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Cleave",
+        "SkillName": "Deep Cut II",
+        "SkillDescription": "Deep Cut II",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Cleave",
+        "SkillName": "Forceful Swing II",
+        "SkillDescription": "Forceful Swing II",
+        "DataClass": "ForcefulSwing",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "ChanceToApply": 0.5,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 0.9,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Cleave",
+        "SkillName": "Blade Mastery III",
+        "SkillDescription": "Blade Mastery III",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Cleave",
+        "SkillName": "Endurance Fighter III",
+        "SkillDescription": "Endurance Fighter III",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Cleave",
+        "SkillName": "Cunning Warrior III",
+        "SkillDescription": "Cunning Warrior III",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Cleave",
+        "SkillName": "Deep Cut III",
+        "SkillDescription": "Deep Cut III",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Cleave",
+        "SkillName": "Forceful Swing III",
+        "SkillDescription": "Forceful Swing III",
+        "DataClass": "ForcefulSwing",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "ChanceToApply": 0.5,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 0.85,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Cleave",
+        "SkillName": "Blade Mastery IV",
+        "SkillDescription": "Blade Mastery IV",
+        "DataClass": "BladeMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Cleave",
+        "SkillName": "Endurance Fighter IV",
+        "SkillDescription": "Endurance Fighter IV",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Cleave",
+        "SkillName": "Cunning Warrior IV",
+        "SkillDescription": "Cunning Warrior IV",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Cleave",
+        "SkillName": "Deep Cut IV",
+        "SkillDescription": "Deep Cut IV",
+        "DataClass": "DeepCut",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Slash",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "SlashAttack",
+                        "DestinationStatType": "SlashAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Cleave",
+        "SkillName": "Forceful Swing IV",
+        "SkillDescription": "Forceful Swing IV",
+        "DataClass": "ForcefulSwing",
+        "WeaponBaseType": "Slash",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCleave"
+                ],
+                "ChanceToApply": 0.5,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 0.8,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

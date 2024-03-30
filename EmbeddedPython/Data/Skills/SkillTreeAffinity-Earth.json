@@ -1,0 +1,461 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Earth",
+        "SkillName": "Earth Alignment I",
+        "SkillDescription": "Earth Alignment I",
+        "DataClass": "EarthAlignment",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Earth",
+        "SkillName": "Spellcaster I",
+        "SkillDescription": "Spellcaster I",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Earth",
+        "SkillName": "Power Player I",
+        "SkillDescription": "Power Player I",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Earth",
+        "SkillName": "Earth Absorption I",
+        "SkillDescription": "Earth Absorption I",
+        "DataClass": "EarthAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Earth",
+        "SkillName": "Gem Juicer I",
+        "SkillDescription": "Gem Juicer I",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EmeraldValueDelta",
+                        "DestinationStatType": "EmeraldValueDelta",
+                        "FullInt": 1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Earth",
+        "SkillName": "Earth Alignment II",
+        "SkillDescription": "Earth Alignment II",
+        "DataClass": "EarthAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Earth",
+        "SkillName": "Spellcaster II",
+        "SkillDescription": "Spellcaster II",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Earth",
+        "SkillName": "Power Player II",
+        "SkillDescription": "Power Player II",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Earth",
+        "SkillName": "Earth Absorption II",
+        "SkillDescription": "Earth Absorption II",
+        "DataClass": "EarthAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Earth",
+        "SkillName": "Gem Juicer II",
+        "SkillDescription": "Gem Juicer II",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EmeraldValueDelta",
+                        "DestinationStatType": "EmeraldValueDelta",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Earth",
+        "SkillName": "Earth Alignment III",
+        "SkillDescription": "Earth Alignment III",
+        "DataClass": "EarthAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Earth",
+        "SkillName": "Spellcaster III",
+        "SkillDescription": "Spellcaster III",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Earth",
+        "SkillName": "Power Player III",
+        "SkillDescription": "Power Player III",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Earth",
+        "SkillName": "Earth Absorption III",
+        "SkillDescription": "Earth Absorption III",
+        "DataClass": "EarthAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Earth",
+        "SkillName": "Gem Juicer III",
+        "SkillDescription": "Gem Juicer III",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EmeraldValueDelta",
+                        "DestinationStatType": "EmeraldValueDelta",
+                        "FullInt": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Earth",
+        "SkillName": "Earth Alignment IV",
+        "SkillDescription": "Earth Alignment IV",
+        "DataClass": "EarthAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Earth",
+        "SkillName": "Spellcaster IV",
+        "SkillDescription": "Spellcaster IV",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Earth",
+        "SkillName": "Power Player IV",
+        "SkillDescription": "Power Player IV",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Earth",
+        "SkillName": "Earth Absorption IV",
+        "SkillDescription": "Earth Absorption IV",
+        "DataClass": "EarthAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellEarth",
+                    "PowerEarth"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Earth",
+        "SkillName": "Gem Juicer IV",
+        "SkillDescription": "Gem Juicer IV",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EmeraldValueDelta",
+                        "DestinationStatType": "EmeraldValueDelta",
+                        "FullInt": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,461 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Mind",
+        "SkillName": "Mind Alignment I",
+        "SkillDescription": "Mind Alignment I",
+        "DataClass": "MindAlignment",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Mind",
+        "SkillName": "Spellcaster I",
+        "SkillDescription": "Spellcaster I",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Mind",
+        "SkillName": "Power Player I",
+        "SkillDescription": "Power Player I",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Mind",
+        "SkillName": "Mind Absorption I",
+        "SkillDescription": "Mind Absorption I",
+        "DataClass": "MindAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Mind",
+        "SkillName": "Gem Juicer I",
+        "SkillDescription": "Gem Juicer I",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmethystValueDelta",
+                        "DestinationStatType": "AmethystValueDelta",
+                        "FullInt": 1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Mind",
+        "SkillName": "Mind Alignment II",
+        "SkillDescription": "Mind Alignment II",
+        "DataClass": "MindAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Mind",
+        "SkillName": "Spellcaster II",
+        "SkillDescription": "Spellcaster II",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Mind",
+        "SkillName": "Power Player II",
+        "SkillDescription": "Power Player II",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Mind",
+        "SkillName": "Mind Absorption II",
+        "SkillDescription": "Mind Absorption II",
+        "DataClass": "MindAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Mind",
+        "SkillName": "Gem Juicer II",
+        "SkillDescription": "Gem Juicer II",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmethystValueDelta",
+                        "DestinationStatType": "AmethystValueDelta",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Mind",
+        "SkillName": "Mind Alignment III",
+        "SkillDescription": "Mind Alignment III",
+        "DataClass": "MindAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.10,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Mind",
+        "SkillName": "Spellcaster III",
+        "SkillDescription": "Spellcaster III",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Mind",
+        "SkillName": "Power Player III",
+        "SkillDescription": "Power Player III",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Mind",
+        "SkillName": "Mind Absorption III",
+        "SkillDescription": "Mind Absorption III",
+        "DataClass": "MindAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Mind",
+        "SkillName": "Gem Juicer III",
+        "SkillDescription": "Gem Juicer III",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmethystValueDelta",
+                        "DestinationStatType": "AmethystValueDelta",
+                        "FullInt": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Mind",
+        "SkillName": "Mind Alignment IV",
+        "SkillDescription": "Mind Alignment IV",
+        "DataClass": "MindAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Mind",
+        "SkillName": "Spellcaster IV",
+        "SkillDescription": "Spellcaster IV",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Mind",
+        "SkillName": "Power Player IV",
+        "SkillDescription": "Power Player IV",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Mind",
+        "SkillName": "Mind Absorption IV",
+        "SkillDescription": "Mind Absorption IV",
+        "DataClass": "MindAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellMind",
+                    "PowerMind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Mind",
+        "SkillName": "Gem Juicer IV",
+        "SkillDescription": "Gem Juicer IV",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmethystValueDelta",
+                        "DestinationStatType": "AmethystValueDelta",
+                        "FullInt": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

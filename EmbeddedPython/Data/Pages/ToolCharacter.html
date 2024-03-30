@@ -1,0 +1,835 @@
+<html>
+<body>
+<div class="container">
+    <form>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">
+                <select class="form-control" onchange="SwitchToScene(value)">
+                    <option>Select Scene...</option>
+                    <option value="MainMenu">MainMenu</option>
+                    <option value="ToolMain">ToolMain</option>
+                    <option value="ToolCharacter">ToolCharacter</option>
+                    <option value="ToolParty">ToolParty</option>
+                    <option value="ToolSave">ToolSave</option>
+                </select>
+            </div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Controls</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From JSON</label>
+            <div class="col-sm-8">
+                <textarea style="resize: none;" class="form-control" rows="3" name="sLoadCharacterFromJson_Textarea" placeholder="Raw character json">%sLoadCharacterFromJson_Textarea%</textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('load_character_from_json')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From File</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="sLoadCharacterFromFile_Filename" placeholder="Filename" value="%sLoadCharacterFromFile_Filename%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sLoadCharacterFromFile_FileType">
+                    <option value="" disabled="disabled">File Type...</option>
+                    %sOptionList_FileType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('load_character_from_file')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save To File</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSaveCharacterToFile_CharID" placeholder="Character Identifier" value="%sSaveCharacterToFile_CharID%"/>
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSaveCharacterToFile_Filename" placeholder="Filename" value="%sSaveCharacterToFile_Filename%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sSaveCharacterToFile_FileType">
+                    <option value="" disabled="disabled">File Type...</option>
+                    %sOptionList_FileType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('save_character_to_file')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unload Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sUnloadCharacter_CharID" placeholder="Character Identifier" value="%sUnloadCharacter_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('unload_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Generate Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sGenerateCharacter_CharID" placeholder="Character Identifier" value="%sGenerateCharacter_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+                <textarea style="resize: none;" class="form-control" rows="3" name="sGenerateCharacter_Textarea" placeholder="Raw character generator json">%sGenerateCharacter_Textarea%</textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('generate_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Generate Random Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sGenerateRandomCharacter_CharID" placeholder="Character Identifier" value="%sGenerateRandomCharacter_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('generate_random_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Regenerate Character Data</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sRegenerateCharacterData_CharID" placeholder="Character Identifier" value="%sRegenerateCharacterData_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('regenerate_character_data')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Create Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCreateCharacter_CharID" placeholder="Character Identifier" value="%sCreateCharacter_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('create_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Display Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sDisplayCharacter_CharID" placeholder="Character Identifier" value="%sDisplayCharacter_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('display_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-4 col-form-label">Save Character Changes</label>
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('save_character')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Character List</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-12">
+                <textarea style="resize: none;" class="form-control" rows="3" readonly="readonly">%sAllCharacterIDs%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Character Details</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_CharID" placeholder="Character Identifier" readonly="readonly" value="%sCharacterDetails_CharID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Party Identifier" readonly="readonly" value="%sCharacterDetails_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" placeholder="Character Target Type" readonly="readonly" value="%sCharacterDetails_CharTargetType%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_First_Name" placeholder="First Name" value="%sCharacterDetails_First_Name%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Last_Name" placeholder="Last Name" value="%sCharacterDetails_Last_Name%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Age" placeholder="Age" value="%sCharacterDetails_Age%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_Gender">
+                    <option value="" disabled="disabled">Gender...</option>
+                    %sCharacterDetailsOptionList_Gender%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_Hair">
+                    <option value="" disabled="disabled">Hair...</option>
+                    %sCharacterDetailsOptionList_Hair%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_Eyes">
+                    <option value="" disabled="disabled">Eyes...</option>
+                    %sCharacterDetailsOptionList_Eyes%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_Handedness">
+                    <option value="" disabled="disabled">Handedness...</option>
+                    %sCharacterDetailsOptionList_Handed%
+                </select>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_PowerSet">
+                    <option value="" disabled="disabled">Power Set...</option>
+                    %sCharacterDetailsOptionList_PowerSet%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_BaseRace">
+                    <option value="" disabled="disabled">Base Race...</option>
+                    %sCharacterDetailsOptionList_BaseRace%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_TransformedRace">
+                    <option value="" disabled="disabled">Transformed Race...</option>
+                    %sCharacterDetailsOptionList_TransformedRace%
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sCharacterDetails_WeaponSet">
+                    <option value="" disabled="disabled">Weapon Set...</option>
+                    %sCharacterDetailsOptionList_WeaponSet%
+                </select>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weapon 1 Left</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Weapon1Left%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Weapon 1 Right</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Weapon1Right%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Neck</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Neck%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weapon 2 Left</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Weapon2Left%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Weapon 2 Right</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Weapon2Right%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Head</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Head%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Left Fingers</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_LeftFingers%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Right Fingers</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_RightFingers%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Hands</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Hands%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Feet</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Feet%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Legs</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Legs%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Chest</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" readonly="readonly" value="%sCharacterDetails_Chest%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Health</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_HP_Current" placeholder="Cur" value="%sCharacterDetails_HP_Current%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_HP_Max" placeholder="Max" value="%sCharacterDetails_HP_Max%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_HP_Regen" placeholder="Reg" value="%sCharacterDetails_HP_Regen%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_HP_Delta" placeholder="Delta" value="%sCharacterDetails_HP_Delta%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Blunt</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Blunt_Attack" placeholder="Atk" value="%sCharacterDetails_Blunt_Attack%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Blunt_Defense" placeholder="Def" value="%sCharacterDetails_Blunt_Defense%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Pierce</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Pierce_Attack" placeholder="Atk" value="%sCharacterDetails_Pierce_Attack%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Pierce_Defense" placeholder="Def" value="%sCharacterDetails_Pierce_Defense%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Magic</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_MP_Current" placeholder="Cur" value="%sCharacterDetails_MP_Current%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_MP_Max" placeholder="Max" value="%sCharacterDetails_MP_Max%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_MP_Regen" placeholder="Reg" value="%sCharacterDetails_MP_Regen%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_MP_Delta" placeholder="Delta" value="%sCharacterDetails_MP_Delta%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Magic</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Magic_Attack" placeholder="Atk" value="%sCharacterDetails_Magic_Attack%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Magic_Defense" placeholder="Def" value="%sCharacterDetails_Magic_Defense%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Energy</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Energy_Attack" placeholder="Atk" value="%sCharacterDetails_Energy_Attack%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Energy_Defense" placeholder="Def" value="%sCharacterDetails_Energy_Defense%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Energy</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_EP_Current" placeholder="Cur" value="%sCharacterDetails_EP_Current%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_EP_Max" placeholder="Max" value="%sCharacterDetails_EP_Max%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_EP_Regen" placeholder="Reg" value="%sCharacterDetails_EP_Regen%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_EP_Delta" placeholder="Delta" value="%sCharacterDetails_EP_Delta%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Slash</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Slash_Attack" placeholder="Atk" value="%sCharacterDetails_Slash_Attack%"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" name="sCharacterDetails_Slash_Defense" placeholder="Def" value="%sCharacterDetails_Slash_Defense%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Speed</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Speed" placeholder="Speed" value="%sCharacterDetails_Speed%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Slash</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Slash_SkillPoints" placeholder="SP" value="%sCharacterDetails_Slash_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Slash_ActionPoints" placeholder="AP" value="%sCharacterDetails_Slash_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Sever</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Sever_SkillPoints" placeholder="SP" value="%sCharacterDetails_Sever_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Sever_ActionPoints" placeholder="AP" value="%sCharacterDetails_Sever_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Slice</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Slice_SkillPoints" placeholder="SP" value="%sCharacterDetails_Slice_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Slice_ActionPoints" placeholder="AP" value="%sCharacterDetails_Slice_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Slit</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Slit_SkillPoints" placeholder="SP" value="%sCharacterDetails_Slit_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Slit_ActionPoints" placeholder="AP" value="%sCharacterDetails_Slit_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Cleave</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Cleave_SkillPoints" placeholder="SP" value="%sCharacterDetails_Cleave_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Cleave_ActionPoints" placeholder="AP" value="%sCharacterDetails_Cleave_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Decapitate</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Decapitate_SkillPoints" placeholder="SP" value="%sCharacterDetails_Decapitate_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Decapitate_ActionPoints" placeholder="AP" value="%sCharacterDetails_Decapitate_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Parry</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Parry_SkillPoints" placeholder="SP" value="%sCharacterDetails_Parry_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Parry_ActionPoints" placeholder="AP" value="%sCharacterDetails_Parry_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Riposte</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Riposte_SkillPoints" placeholder="SP" value="%sCharacterDetails_Riposte_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Riposte_ActionPoints" placeholder="AP" value="%sCharacterDetails_Riposte_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Bash</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Bash_SkillPoints" placeholder="SP" value="%sCharacterDetails_Bash_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Bash_ActionPoints" placeholder="AP" value="%sCharacterDetails_Bash_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Smash</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Smash_SkillPoints" placeholder="SP" value="%sCharacterDetails_Smash_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Smash_ActionPoints" placeholder="AP" value="%sCharacterDetails_Smash_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Crush</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Crush_SkillPoints" placeholder="SP" value="%sCharacterDetails_Crush_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Crush_ActionPoints" placeholder="AP" value="%sCharacterDetails_Crush_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Impact</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Impact_SkillPoints" placeholder="SP" value="%sCharacterDetails_Impact_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Impact_ActionPoints" placeholder="AP" value="%sCharacterDetails_Impact_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Break</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Break_SkillPoints" placeholder="SP" value="%sCharacterDetails_Break_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Break_ActionPoints" placeholder="AP" value="%sCharacterDetails_Break_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Crack</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Crack_SkillPoints" placeholder="SP" value="%sCharacterDetails_Crack_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Crack_ActionPoints" placeholder="AP" value="%sCharacterDetails_Crack_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Block</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Block_SkillPoints" placeholder="SP" value="%sCharacterDetails_Block_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Block_ActionPoints" placeholder="AP" value="%sCharacterDetails_Block_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Rush</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Rush_SkillPoints" placeholder="SP" value="%sCharacterDetails_Rush_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Rush_ActionPoints" placeholder="AP" value="%sCharacterDetails_Rush_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Pierce</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Pierce_SkillPoints" placeholder="SP" value="%sCharacterDetails_Pierce_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Pierce_ActionPoints" placeholder="AP" value="%sCharacterDetails_Pierce_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Drill</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Drill_SkillPoints" placeholder="SP" value="%sCharacterDetails_Drill_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Drill_ActionPoints" placeholder="AP" value="%sCharacterDetails_Drill_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Shoot</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Shoot_SkillPoints" placeholder="SP" value="%sCharacterDetails_Shoot_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Shoot_ActionPoints" placeholder="AP" value="%sCharacterDetails_Shoot_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Impale</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Impale_SkillPoints" placeholder="SP" value="%sCharacterDetails_Impale_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Impale_ActionPoints" placeholder="AP" value="%sCharacterDetails_Impale_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Stealth Strike</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_StealthStrike_SkillPoints" placeholder="SP" value="%sCharacterDetails_StealthStrike_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_StealthStrike_ActionPoints" placeholder="AP" value="%sCharacterDetails_StealthStrike_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Critical Shot</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_CriticalShot_SkillPoints" placeholder="SP" value="%sCharacterDetails_CriticalShot_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_CriticalShot_ActionPoints" placeholder="AP" value="%sCharacterDetails_CriticalShot_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Dodge</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Dodge_SkillPoints" placeholder="SP" value="%sCharacterDetails_Dodge_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Dodge_ActionPoints" placeholder="AP" value="%sCharacterDetails_Dodge_ActionPoints%"/>
+            </div>
+            <label class="col-sm-1 col-form-label">Counter</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sCharacterDetails_Counter_SkillPoints" placeholder="SP" value="%sCharacterDetails_Counter_SkillPoints%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sCharacterDetails_Counter_ActionPoints" placeholder="AP" value="%sCharacterDetails_Counter_ActionPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Barbarian</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Barbarian_SkillPoints" placeholder="SP" value="%sCharacterDetails_Barbarian_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Mage</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Mage_SkillPoints" placeholder="SP" value="%sCharacterDetails_Mage_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Rogue</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Rogue_SkillPoints" placeholder="SP" value="%sCharacterDetails_Rogue_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Blademaster</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Blademaster_SkillPoints" placeholder="SP" value="%sCharacterDetails_Blademaster_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Avatar</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Avatar_SkillPoints" placeholder="SP" value="%sCharacterDetails_Avatar_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Ambidextrous</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Ambidext_SkillPoints" placeholder="SP" value="%sCharacterDetails_Ambidext_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Focused</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Focused_SkillPoints" placeholder="SP" value="%sCharacterDetails_Focused_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Stalwart</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Stalwart_SkillPoints" placeholder="SP" value="%sCharacterDetails_Stalwart_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Healer</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Healer_SkillPoints" placeholder="SP" value="%sCharacterDetails_Healer_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Alchemist</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Alchemist_SkillPoints" placeholder="SP" value="%sCharacterDetails_Alchemist_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Energist</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Energist_SkillPoints" placeholder="SP" value="%sCharacterDetails_Energist_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Chemist</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Chemist_SkillPoints" placeholder="SP" value="%sCharacterDetails_Chemist_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Hammersmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Hammersmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Hammersmith_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Spellsmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Spellsmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Spellsmith_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Bowsmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Bowsmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Bowsmith_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Swordsmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Swordsmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Swordsmith_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weaver</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Weaver_SkillPoints" placeholder="SP" value="%sCharacterDetails_Weaver_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Tanner</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Tanner_SkillPoints" placeholder="SP" value="%sCharacterDetails_Tanner_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Scalesmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Scalesmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Scalesmith_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Platesmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Platesmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Platesmith_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Goldsmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Goldsmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Goldsmith_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Shieldsmith</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Shieldsmith_SkillPoints" placeholder="SP" value="%sCharacterDetails_Shieldsmith_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Hammerbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Hammerbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Hammerbane_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Spellbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Spellbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Spellbane_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Bowbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Bowbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Bowbane_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Swordbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Swordbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Swordbane_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Threadbare</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Threadbare_SkillPoints" placeholder="SP" value="%sCharacterDetails_Threadbare_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Stud Remover</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Studremover_SkillPoints" placeholder="SP" value="%sCharacterDetails_Studremover_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Scalebane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Scalebane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Scalebane_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Platebane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Platebane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Platebane_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Goldbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Goldbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Goldbane_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Shieldbane</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Shieldbane_SkillPoints" placeholder="SP" value="%sCharacterDetails_Shieldbane_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Holy</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Holy_SkillPoints" placeholder="SP" value="%sCharacterDetails_Holy_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Fire</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Fire_SkillPoints" placeholder="SP" value="%sCharacterDetails_Fire_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Ice</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Ice_SkillPoints" placeholder="SP" value="%sCharacterDetails_Ice_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Shock</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Shock_SkillPoints" placeholder="SP" value="%sCharacterDetails_Shock_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Dark</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Dark_SkillPoints" placeholder="SP" value="%sCharacterDetails_Dark_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Light</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Light_SkillPoints" placeholder="SP" value="%sCharacterDetails_Light_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Force</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Force_SkillPoints" placeholder="SP" value="%sCharacterDetails_Force_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Mind</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Mind_SkillPoints" placeholder="SP" value="%sCharacterDetails_Mind_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Earth</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Earth_SkillPoints" placeholder="SP" value="%sCharacterDetails_Earth_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Blood</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Blood_SkillPoints" placeholder="SP" value="%sCharacterDetails_Blood_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Flesh</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Flesh_SkillPoints" placeholder="SP" value="%sCharacterDetails_Flesh_SkillPoints%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Wind</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCharacterDetails_Wind_SkillPoints" placeholder="SP" value="%sCharacterDetails_Wind_SkillPoints%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Available Actions</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_AvailableActions%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Skill Passive Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_SkillPassiveChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Item Passive Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_ItemPassiveChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Skill Active Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_SkillActiveChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Item Active Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_ItemActiveChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Skill Actionable Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_SkillActionableChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Item Actionable Changes</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sCharacterDetails_ItemActionableChanges%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Raw Character Json</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="8" readonly="readonly">%sCharacterDetails_RawJson%</textarea>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,461 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Blood",
+        "SkillName": "Blood Alignment I",
+        "SkillDescription": "Blood Alignment I",
+        "DataClass": "BloodAlignment",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Blood",
+        "SkillName": "Spellcaster I",
+        "SkillDescription": "Spellcaster I",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Blood",
+        "SkillName": "Power Player I",
+        "SkillDescription": "Power Player I",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Blood",
+        "SkillName": "Blood Absorption I",
+        "SkillDescription": "Blood Absorption I",
+        "DataClass": "BloodAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Blood",
+        "SkillName": "Gem Juicer I",
+        "SkillDescription": "Gem Juicer I",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GarnetValueDelta",
+                        "DestinationStatType": "GarnetValueDelta",
+                        "FullInt": 1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Blood",
+        "SkillName": "Blood Alignment II",
+        "SkillDescription": "Blood Alignment II",
+        "DataClass": "BloodAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Blood",
+        "SkillName": "Spellcaster II",
+        "SkillDescription": "Spellcaster II",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Blood",
+        "SkillName": "Power Player II",
+        "SkillDescription": "Power Player II",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Blood",
+        "SkillName": "Blood Absorption II",
+        "SkillDescription": "Blood Absorption II",
+        "DataClass": "BloodAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Blood",
+        "SkillName": "Gem Juicer II",
+        "SkillDescription": "Gem Juicer II",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GarnetValueDelta",
+                        "DestinationStatType": "GarnetValueDelta",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Blood",
+        "SkillName": "Blood Alignment III",
+        "SkillDescription": "Blood Alignment III",
+        "DataClass": "BloodAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Blood",
+        "SkillName": "Spellcaster III",
+        "SkillDescription": "Spellcaster III",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Blood",
+        "SkillName": "Power Player III",
+        "SkillDescription": "Power Player III",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Blood",
+        "SkillName": "Blood Absorption III",
+        "SkillDescription": "Blood Absorption III",
+        "DataClass": "BloodAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Blood",
+        "SkillName": "Gem Juicer III",
+        "SkillDescription": "Gem Juicer III",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GarnetValueDelta",
+                        "DestinationStatType": "GarnetValueDelta",
+                        "FullInt": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Blood",
+        "SkillName": "Blood Alignment IV",
+        "SkillDescription": "Blood Alignment IV",
+        "DataClass": "BloodAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Blood",
+        "SkillName": "Spellcaster IV",
+        "SkillDescription": "Spellcaster IV",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Blood",
+        "SkillName": "Power Player IV",
+        "SkillDescription": "Power Player IV",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Blood",
+        "SkillName": "Blood Absorption IV",
+        "SkillDescription": "Blood Absorption IV",
+        "DataClass": "BloodAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellBlood",
+                    "PowerBlood"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Blood",
+        "SkillName": "Gem Juicer IV",
+        "SkillDescription": "Gem Juicer IV",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GarnetValueDelta",
+                        "DestinationStatType": "GarnetValueDelta",
+                        "FullInt": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,774 @@
+{
+    "Rank0": {
+        "SkillRank": 0,
+        "SkillType": "Crack",
+        "SkillName": "Base Attack",
+        "SkillDescription": "Base Attack",
+        "DataClass": "BaseAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 0,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 0,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ]
+            }
+        ]
+    },
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Crack",
+        "SkillName": "Blunt Mastery I",
+        "SkillDescription": "Blunt Mastery I",
+        "DataClass": "BluntMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Crack",
+        "SkillName": "Endurance Fighter I",
+        "SkillDescription": "Endurance Fighter I",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Crack",
+        "SkillName": "Cunning Warrior I",
+        "SkillDescription": "Cunning Warrior I",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Crack",
+        "SkillName": "Deep Impact I",
+        "SkillDescription": "Deep Impact I",
+        "DataClass": "DeepImpact",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Crack",
+        "SkillName": "Skull Splitter I",
+        "SkillDescription": "Skull Splitter I",
+        "DataClass": "SkullSplitter",
+        "WeaponBaseType": "Blunt",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCounter"
+                ],
+                "ChanceToApply": 0.05,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "IsDead",
+                        "DestinationStatType": "IsDead",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Crack",
+        "SkillName": "Blunt Mastery II",
+        "SkillDescription": "Blunt Mastery II",
+        "DataClass": "BluntMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Crack",
+        "SkillName": "Endurance Fighter II",
+        "SkillDescription": "Endurance Fighter II",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Crack",
+        "SkillName": "Cunning Warrior II",
+        "SkillDescription": "Cunning Warrior II",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Crack",
+        "SkillName": "Deep Impact II",
+        "SkillDescription": "Deep Impact II",
+        "DataClass": "DeepImpact",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Crack",
+        "SkillName": "Skull Splitter II",
+        "SkillDescription": "Skull Splitter II",
+        "DataClass": "SkullSplitter",
+        "WeaponBaseType": "Blunt",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCounter"
+                ],
+                "ChanceToApply": 0.10,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "IsDead",
+                        "DestinationStatType": "IsDead",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Crack",
+        "SkillName": "Blunt Mastery III",
+        "SkillDescription": "Blunt Mastery III",
+        "DataClass": "BluntMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Crack",
+        "SkillName": "Endurance Fighter III",
+        "SkillDescription": "Endurance Fighter III",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Crack",
+        "SkillName": "Cunning Warrior III",
+        "SkillDescription": "Cunning Warrior III",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Crack",
+        "SkillName": "Deep Impact III",
+        "SkillDescription": "Deep Impact III",
+        "DataClass": "DeepImpact",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Crack",
+        "SkillName": "Skull Splitter III",
+        "SkillDescription": "Skull Splitter III",
+        "DataClass": "SkullSplitter",
+        "WeaponBaseType": "Blunt",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCounter"
+                ],
+                "ChanceToApply": 0.05,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "IsDead",
+                        "DestinationStatType": "IsDead",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Crack",
+        "SkillName": "Blunt Mastery IV",
+        "SkillDescription": "Blunt Mastery IV",
+        "DataClass": "BluntMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Crack",
+        "SkillName": "Endurance Fighter IV",
+        "SkillDescription": "Endurance Fighter IV",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Crack",
+        "SkillName": "Cunning Warrior IV",
+        "SkillDescription": "Cunning Warrior IV",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Crack",
+        "SkillName": "Deep Impact IV",
+        "SkillDescription": "Deep Impact IV",
+        "DataClass": "DeepImpact",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Blunt",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCrack"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntAttack",
+                        "DestinationStatType": "BluntAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Crack",
+        "SkillName": "Skull Splitter IV",
+        "SkillDescription": "Skull Splitter IV",
+        "DataClass": "SkullSplitter",
+        "WeaponBaseType": "Blunt",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponCounter"
+                ],
+                "ChanceToApply": 0.2,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "IsDead",
+                        "DestinationStatType": "IsDead",
+                        "FullBool": true,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

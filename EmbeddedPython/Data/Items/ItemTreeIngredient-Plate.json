@@ -1,0 +1,14 @@
+{
+    "BronzePlate": {
+        "ItemDescription": "Bronze Plate",
+        "ItemName": "Bronze Plate",
+        "ItemType": "IngredientPlate",
+        "StatChanges": []
+    },
+    "IronPlate": {
+        "ItemDescription": "Iron Plate",
+        "ItemName": "Iron Plate",
+        "ItemType": "IngredientPlate",
+        "StatChanges": []
+    }
+}

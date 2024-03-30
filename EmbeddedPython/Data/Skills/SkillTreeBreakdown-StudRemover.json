@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "StudRemover",
+        "SkillName": "Apprentice Tanner I",
+        "SkillDescription": "Apprentice Tanner I",
+        "DataClass": "ApprenticeTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "StudRemover",
+        "SkillName": "Stud Adept I",
+        "SkillDescription": "Stud Adept I",
+        "DataClass": "StudAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "StudRemover",
+        "SkillName": "Lucky Pull I",
+        "SkillDescription": "Lucky Pull I",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "StudRemover",
+        "SkillName": "Adept Tanner I",
+        "SkillDescription": "Adept Tanner I",
+        "DataClass": "AdeptTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "StudRemover",
+        "SkillName": "Thorough Cleaner I",
+        "SkillDescription": "Thorough Cleaner I",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "StudRemover",
+        "SkillName": "Keen Eye I",
+        "SkillDescription": "Keen Eye I",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "StudRemover",
+        "SkillName": "Master Tanner I",
+        "SkillDescription": "Master Tanner I",
+        "DataClass": "MasterTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "StudRemover",
+        "SkillName": "Stud Master I",
+        "SkillDescription": "Stud Master I",
+        "DataClass": "StudMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "StudRemover",
+        "SkillName": "Lucky Pull II",
+        "SkillDescription": "Lucky Pull II",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "StudRemover",
+        "SkillName": "Obsessed Cleaner I",
+        "SkillDescription": "Obsessed Cleaner I",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "StudRemover",
+        "SkillName": "Apprentice Tanner II",
+        "SkillDescription": "Apprentice Tanner II",
+        "DataClass": "ApprenticeTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "StudRemover",
+        "SkillName": "Stud Adept II",
+        "SkillDescription": "Stud Adept II",
+        "DataClass": "StudAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "StudRemover",
+        "SkillName": "Lucky Pull III",
+        "SkillDescription": "Lucky Pull III",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "StudRemover",
+        "SkillName": "Adept Tanner II",
+        "SkillDescription": "Adept Tanner II",
+        "DataClass": "AdeptTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "StudRemover",
+        "SkillName": "Thorough Cleaner II",
+        "SkillDescription": "Thorough Cleaner II",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "StudRemover",
+        "SkillName": "Keen Eye II",
+        "SkillDescription": "Keen Eye II",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "StudRemover",
+        "SkillName": "Master Tanner II",
+        "SkillDescription": "Master Tanner II",
+        "DataClass": "MasterTanner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "StudRemover",
+        "SkillName": "Stud Master II",
+        "SkillDescription": "Stud Master II",
+        "DataClass": "StudMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "StudRemover",
+        "SkillName": "Lucky Pull IV",
+        "SkillDescription": "Lucky Pull IV",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "StudRemover",
+        "SkillName": "Obsessed Cleaner II",
+        "SkillDescription": "Obsessed Cleaner II",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

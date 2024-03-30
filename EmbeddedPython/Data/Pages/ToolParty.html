@@ -1,0 +1,397 @@
+<html>
+<body>
+<div class="container">
+    <form>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">
+                <select class="form-control" onchange="SwitchToScene(value)">
+                    <option>Select Scene...</option>
+                    <option value="MainMenu">MainMenu</option>
+                    <option value="ToolMain">ToolMain</option>
+                    <option value="ToolCharacter">ToolCharacter</option>
+                    <option value="ToolParty">ToolParty</option>
+                    <option value="ToolSave">ToolSave</option>
+                </select>
+            </div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Controls</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From JSON</label>
+            <div class="col-sm-8">
+                <textarea style="resize: none;" class="form-control" rows="3" name="sLoadPartyFromJson_Textarea" placeholder="Raw party json">%sLoadPartyFromJson_Textarea%</textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('load_party_from_json')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From File</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" name="sLoadPartyFromFile_Filename" placeholder="Filename" value="%sLoadPartyFromFile_Filename%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sLoadPartyFromFile_FileType">
+                    <option value="" disabled="disabled">File Type...</option>
+                    %sOptionList_FileType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('load_party_from_file')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save To File</label>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSavePartyToFile_PartyID" placeholder="Party Identifier" value="%sSavePartyToFile_PartyID%"/>
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSavePartyToFile_Filename" placeholder="Filename" value="%sSavePartyToFile_Filename%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sSavePartyToFile_FileType">
+                    <option value="" disabled="disabled">File Type...</option>
+                    %sOptionList_FileType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('save_party_to_file')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unload Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sUnloadParty_PartyID" placeholder="Party Identifier" value="%sUnloadParty_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('unload_party')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Set As Current Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sSetCurrentParty_PartyID" placeholder="Party Identifier" value="%sSetCurrentParty_PartyID%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sSetCurrentParty_PartyType">
+                    <option value="" disabled="disabled">Party Type...</option>
+                    %sOptionList_CharacterPartyType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('set_current_party')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Create Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sCreateParty_PartyID" placeholder="Party Identifier" value="%sCreateParty_PartyID%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sCreateParty_PartyType">
+                    <option value="" disabled="disabled">Party Type...</option>
+                    %sOptionList_CharacterPartyType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="current" name="sCreateParty_SetAsCurrent" checked="checked"/>
+                    <label class="form-check-label">Set as current</label>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('create_party')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Add Member</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sAddMember_PartyID" placeholder="Party Identifier" value="%sAddMember_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sAddMember_CharID" placeholder="Character Identifier" value="%sAddMember_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('add_member')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Remove Member</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sRemoveMember_PartyID" placeholder="Party Identifier" value="%sRemoveMember_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sRemoveMember_CharID" placeholder="Character Identifier" value="%sRemoveMember_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('remove_member')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Move Member</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sMoveMember_PartyID" placeholder="Party Identifier" value="%sMoveMember_PartyID%"/>
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sMoveMember_CharID" placeholder="Character Identifier" value="%sMoveMember_CharID%"/>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" name="sMoveMember_CharTargetType">
+                    <option value="" disabled="disabled">Character Target Type...</option>
+                    %sOptionList_CharacterResolvedTargetType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('move_member')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Swap Member</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sSwapMember_PartyID" placeholder="Party Identifier" value="%sSwapMember_PartyID%"/>
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSwapMember_First_CharID" placeholder="First Character Identifier" value="%sSwapMember_First_CharID%"/>
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control" name="sSwapMember_Second_CharID" placeholder="Second Character Identifier" value="%sSwapMember_Second_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('swap_member')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Add Item</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sAddItem_PartyID" placeholder="Party Identifier" value="%sAddItem_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sAddItem_ItemName" placeholder="Item Name" value="%sAddItem_ItemName%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sAddItem_ItemAmount" placeholder="Item Amount" value="%sAddItem_ItemAmount%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('add_item')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Add Random Items</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sAddRandomItems_PartyID" placeholder="Party Identifier" value="%sAddRandomItems_PartyID%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sAddRandomItems_ItemTreeType">
+                    <option value="" disabled="disabled">Item Tree Type...</option>
+                    %sOptionList_ItemTreeType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sAddRandomItems_ItemCount" placeholder="Item Count" value="%sAddRandomItems_ItemCount%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sAddRandomItems_ItemAmount" placeholder="Item Amount" value="%sAddRandomItems_ItemAmount%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('add_random_items')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Remove Item</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sRemoveItem_PartyID" placeholder="Party Identifier" value="%sRemoveItem_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sRemoveItem_ItemName" placeholder="Item Name" value="%sRemoveItem_ItemName%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sRemoveItem_ItemAmount" placeholder="Item Amount" value="%sRemoveItem_ItemAmount%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('remove_item')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Equip Item</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sEquipItem_PartyID" placeholder="Party Identifier" value="%sEquipItem_PartyID%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sEquipItem_CharID" placeholder="Character Identifier" value="%sEquipItem_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sEquipItem_ItemName" placeholder="Item Name" value="%sEquipItem_ItemName%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sEquipItem_CharacterEquipmentType">
+                    <option value="" disabled="disabled">Slot Type...</option>
+                    %sOptionList_CharacterEquipmentType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('equip_item')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unequip Item</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sUnequipItem_PartyID" placeholder="Party Identifier" value="%sUnequipItem_PartyID%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sUnequipItem_CharID" placeholder="Character Identifier" value="%sUnequipItem_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" name="sUnequipItem_ItemName" placeholder="Item Name" value="%sUnequipItem_ItemName%"/>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" name="sUnequipItem_CharacterEquipmentType">
+                    <option value="" disabled="disabled">Slot Type...</option>
+                    %sOptionList_CharacterEquipmentType%
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('unequip_item')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Equip Best Items</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sEquipBestItems_PartyID" placeholder="Party Identifier" value="%sEquipBestItems_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sEquipBestItems_CharID" placeholder="Character Identifier" value="%sEquipBestItems_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('equip_best_items')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unequip Best Items</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sUnequipBestItems_PartyID" placeholder="Party Identifier" value="%sUnequipBestItems_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sUnequipBestItems_CharID" placeholder="Character Identifier" value="%sUnequipBestItems_CharID%"/>
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('unequip_best_items')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Equip Best Items</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sEquipBestItemsAllMembers_PartyID" placeholder="Party Identifier" value="%sEquipBestItemsAllMembers_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('equip_best_items_all_members')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unequip Best Items</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sUnequipBestItemsAllMembers_PartyID" placeholder="Party Identifier" value="%sUnequipBestItemsAllMembers_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('unequip_best_items_all_members')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Display Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" name="sDisplayParty_PartyID" placeholder="Party Identifier" value="%sDisplayParty_PartyID%"/>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="submit" class="btn btn-primary form-control" onclick="SubmitForm('display_party')">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Party List</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">All Parties</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="3" readonly="readonly">%sAllPartyIDs%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Current Ally Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" readonly="readonly" value="%sCurrentParty_Ally%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Current Enemy Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" readonly="readonly" value="%sCurrentParty_Enemy%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col"><hr></div>
+            <div class="col-auto">Party Details</div>
+            <div class="col"><hr></div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Party ID</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" readonly="readonly" value="%sPartyDetails_PartyID%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Party Type</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" readonly="readonly" value="%sPartyDetails_PartyType%"/>
+            </div>
+            <label class="col-sm-2 col-form-label">Play Time</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" readonly="readonly" value="%sPartyDetails_PlayTime%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Taken Target Types</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" readonly="readonly" value="%sPartyDetails_TakenTargetTypes%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Available Target Types</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" readonly="readonly" value="%sPartyDetails_AvailableTargetTypes%"/>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Members</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sPartyDetails_Members%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Items</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sPartyDetails_Items%</textarea>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Description</label>
+            <div class="col-sm-10">
+                <textarea style="resize: none;" class="form-control" rows="4" readonly="readonly">%sPartyDetails_Description%</textarea>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>

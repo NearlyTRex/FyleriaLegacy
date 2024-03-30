@@ -1,0 +1,362 @@
+{
+    "AmberGemShard": {
+        "ItemDescription": "Amber Gem Shard",
+        "ItemName": "Amber Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "RubyGemShard": {
+        "ItemDescription": "Ruby Gem Shard",
+        "ItemName": "Ruby Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "DiamondGemShard": {
+        "ItemDescription": "Diamond Gem Shard",
+        "ItemName": "Diamond Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "CitrineGemShard": {
+        "ItemDescription": "Citrine Gem Shard",
+        "ItemName": "Citrine Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "OnyxGemShard": {
+        "ItemDescription": "Onyx Gem Shard",
+        "ItemName": "Onyx Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "QuartzGemShard": {
+        "ItemDescription": "Quartz Gem Shard",
+        "ItemName": "Quartz Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SapphireGemShard": {
+        "ItemDescription": "Sapphire Gem Shard",
+        "ItemName": "Sapphire Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "AmethystGemShard": {
+        "ItemDescription": "Amethyst Gem Shard",
+        "ItemName": "Amethyst Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "EmeraldGemShard": {
+        "ItemDescription": "Emerald Gem Shard",
+        "ItemName": "Emerald Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "GarnetGemShard": {
+        "ItemDescription": "Garnet Gem Shard",
+        "ItemName": "Garnet Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "IvoryGemShard": {
+        "ItemDescription": "Ivory Gem Shard",
+        "ItemName": "Ivory Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "OpalGemShard": {
+        "ItemDescription": "Opal Gem Shard",
+        "ItemName": "Opal Gem Shard",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyAmberGem": {
+        "ItemDescription": "Tiny Amber Gem",
+        "ItemName": "Tiny Amber Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyRubyGem": {
+        "ItemDescription": "Tiny Ruby Gem",
+        "ItemName": "Tiny Ruby Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyDiamondGem": {
+        "ItemDescription": "Tiny Diamond Gem",
+        "ItemName": "Tiny Diamond Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyCitrineGem": {
+        "ItemDescription": "Tiny Citrine Gem",
+        "ItemName": "Tiny Citrine Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyOnyxGem": {
+        "ItemDescription": "Tiny Onyx Gem",
+        "ItemName": "Tiny Onyx Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyQuartzGem": {
+        "ItemDescription": "Tiny Quartz Gem",
+        "ItemName": "Tiny Quartz Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinySapphireGem": {
+        "ItemDescription": "Tiny Sapphire Gem",
+        "ItemName": "Tiny Sapphire Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyAmethystGem": {
+        "ItemDescription": "Tiny Amethyst Gem",
+        "ItemName": "Tiny Amethyst Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyEmeraldGem": {
+        "ItemDescription": "Tiny Emerald Gem",
+        "ItemName": "Tiny Emerald Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyGarnetGem": {
+        "ItemDescription": "Tiny Garnet Gem",
+        "ItemName": "Tiny Garnet Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyIvoryGem": {
+        "ItemDescription": "Tiny Ivory Gem",
+        "ItemName": "Tiny Ivory Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "TinyOpalGem": {
+        "ItemDescription": "Tiny Opal Gem",
+        "ItemName": "Tiny Opal Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallAmberGem": {
+        "ItemDescription": "Small Amber Gem",
+        "ItemName": "Small Amber Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallRubyGem": {
+        "ItemDescription": "Small Ruby Gem",
+        "ItemName": "Small Ruby Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallDiamondGem": {
+        "ItemDescription": "Small Diamond Gem",
+        "ItemName": "Small Diamond Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallCitrineGem": {
+        "ItemDescription": "Small Citrine Gem",
+        "ItemName": "Small Citrine Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallOnyxGem": {
+        "ItemDescription": "Small Onyx Gem",
+        "ItemName": "Small Onyx Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallQuartzGem": {
+        "ItemDescription": "Small Quartz Gem",
+        "ItemName": "Small Quartz Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallSapphireGem": {
+        "ItemDescription": "Small Sapphire Gem",
+        "ItemName": "Small Sapphire Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallAmethystGem": {
+        "ItemDescription": "Small Amethyst Gem",
+        "ItemName": "Small Amethyst Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallEmeraldGem": {
+        "ItemDescription": "Small Emerald Gem",
+        "ItemName": "Small Emerald Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallGarnetGem": {
+        "ItemDescription": "Small Garnet Gem",
+        "ItemName": "Small Garnet Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallIvoryGem": {
+        "ItemDescription": "Small Ivory Gem",
+        "ItemName": "Small Ivory Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SmallOpalGem": {
+        "ItemDescription": "Small Opal Gem",
+        "ItemName": "Small Opal Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "AmberGem": {
+        "ItemDescription": "Amber Gem",
+        "ItemName": "Amber Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "RubyGem": {
+        "ItemDescription": "Ruby Gem",
+        "ItemName": "Ruby Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "DiamondGem": {
+        "ItemDescription": "Diamond Gem",
+        "ItemName": "Diamond Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "CitrineGem": {
+        "ItemDescription": "Citrine Gem",
+        "ItemName": "Citrine Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "OnyxGem": {
+        "ItemDescription": "Onyx Gem",
+        "ItemName": "Onyx Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "QuartzGem": {
+        "ItemDescription": "Quartz Gem",
+        "ItemName": "Quartz Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "SapphireGem": {
+        "ItemDescription": "Sapphire Gem",
+        "ItemName": "Sapphire Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "AmethystGem": {
+        "ItemDescription": "Amethyst Gem",
+        "ItemName": "Amethyst Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "EmeraldGem": {
+        "ItemDescription": "Emerald Gem",
+        "ItemName": "Emerald Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "GarnetGem": {
+        "ItemDescription": "Garnet Gem",
+        "ItemName": "Garnet Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "IvoryGem": {
+        "ItemDescription": "Ivory Gem",
+        "ItemName": "Ivory Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "OpalGem": {
+        "ItemDescription": "Opal Gem",
+        "ItemName": "Opal Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeAmberGem": {
+        "ItemDescription": "Large Amber Gem",
+        "ItemName": "Large Amber Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeRubyGem": {
+        "ItemDescription": "Large Ruby Gem",
+        "ItemName": "Large Ruby Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeDiamondGem": {
+        "ItemDescription": "Large Diamond Gem",
+        "ItemName": "Large Diamond Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeCitrineGem": {
+        "ItemDescription": "Large Citrine Gem",
+        "ItemName": "Large Citrine Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeOnyxGem": {
+        "ItemDescription": "Large Onyx Gem",
+        "ItemName": "Large Onyx Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeQuartzGem": {
+        "ItemDescription": "Large Quartz Gem",
+        "ItemName": "Large Quartz Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeSapphireGem": {
+        "ItemDescription": "Large Sapphire Gem",
+        "ItemName": "Large Sapphire Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeAmethystGem": {
+        "ItemDescription": "Large Amethyst Gem",
+        "ItemName": "Large Amethyst Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeEmeraldGem": {
+        "ItemDescription": "Large Emerald Gem",
+        "ItemName": "Large Emerald Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeGarnetGem": {
+        "ItemDescription": "Large Garnet Gem",
+        "ItemName": "Large Garnet Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeIvoryGem": {
+        "ItemDescription": "Large Ivory Gem",
+        "ItemName": "Large Ivory Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    },
+    "LargeOpalGem": {
+        "ItemDescription": "Large Opal Gem",
+        "ItemName": "Large Opal Gem",
+        "ItemType": "IngredientGem",
+        "StatChanges": []
+    }
+}

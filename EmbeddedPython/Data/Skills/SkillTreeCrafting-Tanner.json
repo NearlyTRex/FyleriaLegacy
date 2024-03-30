@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe I",
+        "SkillDescription": "Recipe I",
+        "DataClass": "RecipeI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe II",
+        "SkillDescription": "Recipe II",
+        "DataClass": "RecipeII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe III",
+        "SkillDescription": "Recipe III",
+        "DataClass": "RecipeIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe IV",
+        "SkillDescription": "Recipe IV",
+        "DataClass": "RecipeIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe V",
+        "SkillDescription": "Recipe V",
+        "DataClass": "RecipeV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Tanner",
+        "SkillName": "Bronze Master",
+        "SkillDescription": "Bronze Master",
+        "DataClass": "BronzeMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe VI",
+        "SkillDescription": "Recipe VI",
+        "DataClass": "RecipeVI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe VII",
+        "SkillDescription": "Recipe VII",
+        "DataClass": "RecipeVII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Tanner",
+        "SkillName": "Stud Mastery I",
+        "SkillDescription": "Stud Mastery I",
+        "DataClass": "StudMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Tanner",
+        "SkillName": "Leather Mastery I",
+        "SkillDescription": "Leather Mastery I",
+        "DataClass": "LeatherMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe VIII",
+        "SkillDescription": "Recipe VIII",
+        "DataClass": "RecipeVIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe IX",
+        "SkillDescription": "Recipe IX",
+        "DataClass": "RecipeIX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe X",
+        "SkillDescription": "Recipe X",
+        "DataClass": "RecipeX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe XI",
+        "SkillDescription": "Recipe XI",
+        "DataClass": "RecipeXI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe XII",
+        "SkillDescription": "Recipe XII",
+        "DataClass": "RecipeXII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Tanner",
+        "SkillName": "Iron Master",
+        "SkillDescription": "Iron Master",
+        "DataClass": "IronMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe XIII",
+        "SkillDescription": "Recipe XIII",
+        "DataClass": "RecipeXIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Tanner",
+        "SkillName": "Recipe XIV",
+        "SkillDescription": "Recipe XIV",
+        "DataClass": "RecipeXIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Tanner",
+        "SkillName": "Stud Mastery II",
+        "SkillDescription": "Stud Mastery II",
+        "DataClass": "StudMastery",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Tanner",
+        "SkillName": "Leather Mastery II",
+        "SkillDescription": "Leather Mastery II",
+        "DataClass": "LeatherMastery",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

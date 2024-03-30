@@ -1,0 +1,461 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Holy",
+        "SkillName": "Holy Alignment I",
+        "SkillDescription": "Holy Alignment I",
+        "DataClass": "HolyAlignment",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Holy",
+        "SkillName": "Spellcaster I",
+        "SkillDescription": "Spellcaster I",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Holy",
+        "SkillName": "Power Player I",
+        "SkillDescription": "Power Player I",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Holy",
+        "SkillName": "Holy Absorption I",
+        "SkillDescription": "Holy Absorption I",
+        "DataClass": "HolyAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Holy",
+        "SkillName": "Gem Juicer I",
+        "SkillDescription": "Gem Juicer I",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmberValueDelta",
+                        "DestinationStatType": "AmberValueDelta",
+                        "FullInt": 1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Holy",
+        "SkillName": "Holy Alignment II",
+        "SkillDescription": "Holy Alignment II",
+        "DataClass": "HolyAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Holy",
+        "SkillName": "Spellcaster II",
+        "SkillDescription": "Spellcaster II",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Holy",
+        "SkillName": "Power Player II",
+        "SkillDescription": "Power Player II",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Holy",
+        "SkillName": "Holy Absorption II",
+        "SkillDescription": "Holy Absorption II",
+        "DataClass": "HolyAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Holy",
+        "SkillName": "Gem Juicer II",
+        "SkillDescription": "Gem Juicer II",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmberValueDelta",
+                        "DestinationStatType": "AmberValueDelta",
+                        "FullInt": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Holy",
+        "SkillName": "Holy Alignment III",
+        "SkillDescription": "Holy Alignment III",
+        "DataClass": "HolyAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.10,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Holy",
+        "SkillName": "Spellcaster III",
+        "SkillDescription": "Spellcaster III",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Holy",
+        "SkillName": "Power Player III",
+        "SkillDescription": "Power Player III",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Holy",
+        "SkillName": "Holy Absorption III",
+        "SkillDescription": "Holy Absorption III",
+        "DataClass": "HolyAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Holy",
+        "SkillName": "Gem Juicer III",
+        "SkillDescription": "Gem Juicer III",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmberValueDelta",
+                        "DestinationStatType": "AmberValueDelta",
+                        "FullInt": 3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Holy",
+        "SkillName": "Holy Alignment IV",
+        "SkillDescription": "Holy Alignment IV",
+        "DataClass": "HolyAlignment",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Holy",
+        "SkillName": "Spellcaster IV",
+        "SkillDescription": "Spellcaster IV",
+        "DataClass": "Spellcaster",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "SpellHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicCostDelta",
+                        "DestinationStatType": "MagicCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Holy",
+        "SkillName": "Power Player IV",
+        "SkillDescription": "Power Player IV",
+        "DataClass": "PowerPlayer",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesAND": [
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyCostDelta",
+                        "DestinationStatType": "EnergyCostDelta",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Holy",
+        "SkillName": "Holy Absorption IV",
+        "SkillDescription": "Holy Absorption IV",
+        "DataClass": "HolyAbsorption",
+        "StatChanges": [
+            {
+                "RequiredDefendTypesOR": [
+                    "SpellHoly",
+                    "PowerHoly"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusValue",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullInt": -4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Holy",
+        "SkillName": "Gem Juicer IV",
+        "SkillDescription": "Gem Juicer IV",
+        "DataClass": "GemJuicer",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "AmberValueDelta",
+                        "DestinationStatType": "AmberValueDelta",
+                        "FullInt": 4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

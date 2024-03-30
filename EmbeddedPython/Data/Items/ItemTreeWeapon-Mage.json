@@ -1,0 +1,386 @@
+{
+    "BronzeWand": {
+        "ItemDescription": "Bronze Wand",
+        "ItemName": "Bronze Wand",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.10,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "BronzeRod": {
+        "ItemDescription": "Bronze Rod",
+        "ItemName": "Bronze Rod",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "BronzeStaff": {
+        "ItemDescription": "Bronze Staff",
+        "ItemName": "Bronze Staff",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "IronRod": {
+        "ItemDescription": "Iron Rod",
+        "ItemName": "Iron Rod",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "IronStaff": {
+        "ItemDescription": "Iron Staff",
+        "ItemName": "Iron Staff",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "IronWand": {
+        "ItemDescription": "Iron Wand",
+        "ItemName": "Iron Wand",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "MagicPointsMax",
+                        "DestinationStatType": "MagicPointsMax",
+                        "FullPercent": 1.40,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "MagicRegen",
+                        "DestinationStatType": "MagicRegen",
+                        "FullInt": 4,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledBronzeRod": {
+        "ItemDescription": "Jeweled Bronze Rod",
+        "ItemName": "Jeweled Bronze Rod",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.10,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledBronzeStaff": {
+        "ItemDescription": "Jeweled Bronze Staff",
+        "ItemName": "Jeweled Bronze Staff",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledBronzeWand": {
+        "ItemDescription": "Jeweled Bronze Wand",
+        "ItemName": "Jeweled Bronze Wand",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledIronRod": {
+        "ItemDescription": "Jeweled Iron Rod",
+        "ItemName": "Jeweled Iron Rod",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledIronStaff": {
+        "ItemDescription": "Jeweled Iron Staff",
+        "ItemName": "Jeweled Iron Staff",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "JeweledIronWand": {
+        "ItemDescription": "Jeweled Iron Wand",
+        "ItemName": "Jeweled Iron Wand",
+        "ItemType": "WeaponMage",
+        "ActionTypes": [],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0,
+        "StatChanges": [
+            {
+                "RequiredItemEquippedTypesOR": [
+                    "WeaponMage"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsMax",
+                        "DestinationStatType": "EnergyPointsMax",
+                        "FullPercent": 1.40,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "EnergyRegen",
+                        "DestinationStatType": "EnergyRegen",
+                        "FullInt": 4,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

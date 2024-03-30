@@ -1,0 +1,806 @@
+{
+    "Rank0": {
+        "SkillRank": 0,
+        "SkillType": "Shoot",
+        "SkillName": "Base Attack",
+        "SkillDescription": "Base Attack",
+        "DataClass": "BaseAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 0,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 0,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ]
+            }
+        ]
+    },
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Shoot",
+        "SkillName": "Aim Mastery I",
+        "SkillDescription": "Aim Mastery I",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Shoot",
+        "SkillName": "Endurance Fighter I",
+        "SkillDescription": "Endurance Fighter I",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Shoot",
+        "SkillName": "Cunning Warrior I",
+        "SkillDescription": "Cunning Warrior I",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Shoot",
+        "SkillName": "Deep Penetration I",
+        "SkillDescription": "Deep Penetration I",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Shoot",
+        "SkillName": "Covering Fire I",
+        "SkillDescription": "Covering Fire I",
+        "DataClass": "CoveringFire",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "ChanceToApply": 0.1,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.25,
+                        "OperationType": "Add"
+                    },
+                    {
+                        "SourceStatType": "CurrentActionTargets",
+                        "DestinationStatType": "CurrentActionTargets",
+                        "StringListAmount": [
+                            "AllEnemies"
+                        ],
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Shoot",
+        "SkillName": "Aim Mastery II",
+        "SkillDescription": "Aim Mastery II",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Shoot",
+        "SkillName": "Endurance Fighter II",
+        "SkillDescription": "Endurance Fighter II",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Shoot",
+        "SkillName": "Cunning Warrior II",
+        "SkillDescription": "Cunning Warrior II",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Shoot",
+        "SkillName": "Deep Penetration II",
+        "SkillDescription": "Deep Penetration II",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Shoot",
+        "SkillName": "Covering Fire II",
+        "SkillDescription": "Covering Fire II",
+        "DataClass": "CoveringFire",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "ChanceToApply": 0.15,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.25,
+                        "OperationType": "Add"
+                    },
+                    {
+                        "SourceStatType": "CurrentActionTargets",
+                        "DestinationStatType": "CurrentActionTargets",
+                        "StringListAmount": [
+                            "AllEnemies"
+                        ],
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Shoot",
+        "SkillName": "Aim Mastery III",
+        "SkillDescription": "Aim Mastery III",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Shoot",
+        "SkillName": "Endurance Fighter III",
+        "SkillDescription": "Endurance Fighter III",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Shoot",
+        "SkillName": "Cunning Warrior III",
+        "SkillDescription": "Cunning Warrior III",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Shoot",
+        "SkillName": "Deep Penetration III",
+        "SkillDescription": "Deep Penetration III",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Shoot",
+        "SkillName": "Covering Fire III",
+        "SkillDescription": "Covering Fire III",
+        "DataClass": "CoveringFire",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "ChanceToApply": 0.15,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.5,
+                        "OperationType": "Add"
+                    },
+                    {
+                        "SourceStatType": "CurrentActionTargets",
+                        "DestinationStatType": "CurrentActionTargets",
+                        "StringListAmount": [
+                            "AllEnemies"
+                        ],
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Shoot",
+        "SkillName": "Aim Mastery IV",
+        "SkillDescription": "Aim Mastery IV",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Shoot",
+        "SkillName": "Endurance Fighter IV",
+        "SkillDescription": "Endurance Fighter IV",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Shoot",
+        "SkillName": "Cunning Warrior IV",
+        "SkillDescription": "Cunning Warrior IV",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Shoot",
+        "SkillName": "Deep Penetration IV",
+        "SkillDescription": "Deep Penetration IV",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Shoot",
+        "SkillName": "Covering Fire IV",
+        "SkillDescription": "Covering Fire IV",
+        "DataClass": "CoveringFire",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponShoot"
+                ],
+                "ChanceToApply": 0.2,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullPercent": 0.50,
+                        "OperationType": "Add"
+                    },
+                    {
+                        "SourceStatType": "CurrentActionTargets",
+                        "DestinationStatType": "CurrentActionTargets",
+                        "StringListAmount": [
+                            "AllEnemies"
+                        ],
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

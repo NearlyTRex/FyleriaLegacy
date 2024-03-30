@@ -1,0 +1,164 @@
+{
+    "PowerStone": {
+        "ItemDescription": "Power Stone",
+        "ItemName": "Power Stone",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "HealingWaveScroll": {
+        "ItemDescription": "Healing Wave Scroll",
+        "ItemName": "Healing Wave Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "DivineWrathScroll": {
+        "ItemDescription": "Divine Wrath Scroll",
+        "ItemName": "Divine Wrath Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "BurningCindersScroll": {
+        "ItemDescription": "Burning Cinders Scroll",
+        "ItemName": "Burning Cinders Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "FireBlossomScroll": {
+        "ItemDescription": "Fire Blossom Scroll",
+        "ItemName": "Fire Blossom Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "FrostBeamScroll": {
+        "ItemDescription": "Frost Beam Scroll",
+        "ItemName": "Frost Beam Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "FrostallionScroll": {
+        "ItemDescription": "Frostallion Scroll",
+        "ItemName": "Frostallion Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "ElectrofoxScroll": {
+        "ItemDescription": "Electrofox Scroll",
+        "ItemName": "Electrofox Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "ShockMissileScroll": {
+        "ItemDescription": "Shock Missile Scroll",
+        "ItemName": "Shock Missile Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "ShadowShroudScroll": {
+        "ItemDescription": "Shadow Shroud Scroll",
+        "ItemName": "Shadow Shroud Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "BlackStarScroll": {
+        "ItemDescription": "Black Star Scroll",
+        "ItemName": "Black Star Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "PrismaticSphereScroll": {
+        "ItemDescription": "Prismatic Sphere Scroll",
+        "ItemName": "Prismatic Sphere Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "MirrorImageScroll": {
+        "ItemDescription": "Mirror Image Scroll",
+        "ItemName": "Mirror Image Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "CompressionScroll": {
+        "ItemDescription": "Compression Scroll",
+        "ItemName": "Compression Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "ForceDomeScroll": {
+        "ItemDescription": "Force Dome Scroll",
+        "ItemName": "Force Dome Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "SleepScroll": {
+        "ItemDescription": "Sleep Scroll",
+        "ItemName": "Sleep Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "MemoryStormScroll": {
+        "ItemDescription": "Memory Storm Scroll",
+        "ItemName": "Memory Storm Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "MossifyScroll": {
+        "ItemDescription": "Mossify Scroll",
+        "ItemName": "Mossify Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "StonamiScroll": {
+        "ItemDescription": "Stonami Scroll",
+        "ItemName": "Stonami Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "BloodPoolScroll": {
+        "ItemDescription": "Blood Pool Scroll",
+        "ItemName": "Blood Pool Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "TransfusionScroll": {
+        "ItemDescription": "Transfusion Scroll",
+        "ItemName": "Transfusion Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "FleshRainScroll": {
+        "ItemDescription": "Flesh Rain Scroll",
+        "ItemName": "Flesh Rain Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "DigestiveSphereScroll": {
+        "ItemDescription": "Digestive Sphere Scroll",
+        "ItemName": "Digestive Sphere Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "HurricaineScroll": {
+        "ItemDescription": "Hurricaine Scroll",
+        "ItemName": "Hurricaine Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "PurifyingWindScroll": {
+        "ItemDescription": "Purifying Wind Scroll",
+        "ItemName": "Purifying Wind Scroll",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "Orb": {
+        "ItemDescription": "Orb",
+        "ItemName": "Orb",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    },
+    "Ingot": {
+        "ItemDescription": "Ingot",
+        "ItemName": "Ingot",
+        "ItemType": "IngredientMisc",
+        "StatChanges": []
+    }
+}

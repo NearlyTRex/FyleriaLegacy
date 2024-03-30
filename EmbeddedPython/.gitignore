@@ -1,0 +1,75 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Python
+*.pyc
+*.pyo
+__pycache__
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# Web
+*.min.css
+*.min.js
+
+# Folders
+Project/Build*
+Project/Libs/Assert/orig
+Project/Libs/BackwardCPP/orig
+Project/Libs/BetterEnums/orig
+Project/Libs/Boost/orig
+Project/Libs/Bootstrap/orig
+Project/Libs/FantasyName/orig
+Project/Libs/ImmutableString/orig
+Project/Libs/jQuery/orig
+Project/Libs/MicroPather/orig
+Project/Libs/ModernCPPJson/orig
+Project/Libs/Phaser/orig
+Project/Libs/ObjectThreadsafe/orig
+Project/Libs/PyBind/orig
+Project/Libs/Python3/orig
+Project/Libs/SpdLog/orig
+Project/Libs/TinyXML2/orig
+Project/Libs/TMXParser/orig
+Project/Libs/URIParser/orig
+Project/Libs/Zlib/orig
+Project/Programs/Premake5/orig
+Project/Programs/Tiled/orig
+Project/Programs/Unzip/orig
+Project/Programs/Zip/orig
+
+# Program
+FyleriaMain_*

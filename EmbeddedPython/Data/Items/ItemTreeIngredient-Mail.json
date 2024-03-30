@@ -1,0 +1,14 @@
+{
+    "BronzeScalemail": {
+        "ItemDescription": "Bronze Scalemail",
+        "ItemName": "Bronze Scalemail",
+        "ItemType": "IngredientMail",
+        "StatChanges": []
+    },
+    "IronScalemail": {
+        "ItemDescription": "Iron Scalemail",
+        "ItemName": "Iron Scalemail",
+        "ItemType": "IngredientMail",
+        "StatChanges": []
+    }
+}

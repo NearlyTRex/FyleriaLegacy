@@ -1,0 +1,152 @@
+{
+    "VeryWeakHealingPotion": {
+        "ItemDescription": "Very Weak Healing Potion",
+        "ItemName": "Very Weak Healing Potion",
+        "ItemType": "PotionHeal",
+        "DataClass": "HealPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionHeal"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionHeal"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthPointsCurrent",
+                        "DestinationStatType": "HealthPointsCurrent",
+                        "FullPercent": 0.10,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "WeakHealingPotion": {
+        "ItemDescription": "Weak Healing Potion",
+        "ItemName": "Weak Healing Potion",
+        "ItemType": "PotionHeal",
+        "DataClass": "HealPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionHeal"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionHeal"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthPointsCurrent",
+                        "DestinationStatType": "HealthPointsCurrent",
+                        "FullPercent": 0.20,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "AverageHealingPotion": {
+        "ItemDescription": "Average Healing Potion",
+        "ItemName": "Average Healing Potion",
+        "ItemType": "PotionHeal",
+        "DataClass": "HealPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionHeal"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionHeal"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthPointsCurrent",
+                        "DestinationStatType": "HealthPointsCurrent",
+                        "FullPercent": 0.30,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "StrongHealingPotion": {
+        "ItemDescription": "Strong Healing Potion",
+        "ItemName": "Strong Healing Potion",
+        "ItemType": "PotionHeal",
+        "DataClass": "HealPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionHeal"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionHeal"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthPointsCurrent",
+                        "DestinationStatType": "HealthPointsCurrent",
+                        "FullPercent": 0.40,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "VeryStrongHealingPotion": {
+        "ItemDescription": "Very Strong Healing Potion",
+        "ItemName": "Very Strong Healing Potion",
+        "ItemType": "PotionHeal",
+        "DataClass": "HealPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionHeal"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionHeal"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthPointsCurrent",
+                        "DestinationStatType": "HealthPointsCurrent",
+                        "FullPercent": 0.50,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

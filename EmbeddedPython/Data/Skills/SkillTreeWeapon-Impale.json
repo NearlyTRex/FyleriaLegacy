@@ -1,0 +1,824 @@
+{
+    "Rank0": {
+        "SkillRank": 0,
+        "SkillType": "Impale",
+        "SkillName": "Base Attack",
+        "SkillDescription": "Base Attack",
+        "DataClass": "BaseAttack",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 0,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 0,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ]
+            }
+        ]
+    },
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Impale",
+        "SkillName": "Aim Mastery I",
+        "SkillDescription": "Aim Mastery I",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 15,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Impale",
+        "SkillName": "Endurance Fighter I",
+        "SkillDescription": "Endurance Fighter I",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Impale",
+        "SkillName": "Cunning Warrior I",
+        "SkillDescription": "Cunning Warrior I",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Impale",
+        "SkillName": "Deep Penetration I",
+        "SkillDescription": "Deep Penetration I",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Impale",
+        "SkillName": "Vital Strike I",
+        "SkillDescription": "Vital Strike I",
+        "DataClass": "VitalStrike",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "ChanceToApply": 0.75,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "RoundAmount": 2,
+                "StatChangeEntries": [
+                    {
+                        "Round": 0,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 1,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Impale",
+        "SkillName": "Aim Mastery II",
+        "SkillDescription": "Aim Mastery II",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 20,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Impale",
+        "SkillName": "Endurance Fighter II",
+        "SkillDescription": "Endurance Fighter II",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.20,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Impale",
+        "SkillName": "Cunning Warrior II",
+        "SkillDescription": "Cunning Warrior II",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Impale",
+        "SkillName": "Deep Penetration II",
+        "SkillDescription": "Deep Penetration II",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Impale",
+        "SkillName": "Vital Strike II",
+        "SkillDescription": "Vital Strike II",
+        "DataClass": "VitalStrike",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "ChanceToApply": 0.75,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "RoundAmount": 2,
+                "StatChangeEntries": [
+                    {
+                        "Round": 0,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 1,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Impale",
+        "SkillName": "Aim Mastery III",
+        "SkillDescription": "Aim Mastery III",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 25,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Impale",
+        "SkillName": "Endurance Fighter III",
+        "SkillDescription": "Endurance Fighter III",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.25,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Impale",
+        "SkillName": "Cunning Warrior III",
+        "SkillDescription": "Cunning Warrior III",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.5,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Impale",
+        "SkillName": "Deep Penetration III",
+        "SkillDescription": "Deep Penetration III",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Impale",
+        "SkillName": "Vital Strike III",
+        "SkillDescription": "Vital Strike III",
+        "DataClass": "VitalStrike",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "ChanceToApply": 0.75,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "RoundAmount": 3,
+                "StatChangeEntries": [
+                    {
+                        "Round": 0,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 1,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 2,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Impale",
+        "SkillName": "Aim Mastery IV",
+        "SkillDescription": "Aim Mastery IV",
+        "DataClass": "AimMastery",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 30,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Impale",
+        "SkillName": "Endurance Fighter IV",
+        "SkillDescription": "Endurance Fighter IV",
+        "DataClass": "EnduranceFighter",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.30,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Impale",
+        "SkillName": "Cunning Warrior IV",
+        "SkillDescription": "Cunning Warrior IV",
+        "DataClass": "CunningWarrior",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2.75,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Impale",
+        "SkillName": "Deep Penetration IV",
+        "SkillDescription": "Deep Penetration IV",
+        "DataClass": "DeepPenetration",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostAP": 1,
+        "WeaponBaseType": "Pierce",
+        "ActionPoints": 35,
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToCauseCriticalHit",
+                        "DestinationStatType": "ChanceToCauseCriticalHit",
+                        "FullFloat": 0.35,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceAttack",
+                        "DestinationStatType": "PierceAttack",
+                        "FullPercent": 1.3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Impale",
+        "SkillName": "Vital Strike IV",
+        "SkillDescription": "Vital Strike IV",
+        "DataClass": "VitalStrike",
+        "WeaponBaseType": "Pierce",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "WeaponImpale"
+                ],
+                "ChanceToApply": 0.75,
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "RoundAmount": 3,
+                "StatChangeEntries": [
+                    {
+                        "Round": 0,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 1,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "Round": 2,
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": -3,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

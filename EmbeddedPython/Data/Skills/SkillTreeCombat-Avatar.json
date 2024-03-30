@@ -1,0 +1,605 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Avatar",
+        "SkillName": "Unlocked Potential I",
+        "SkillDescription": "Unlocked Potential I",
+        "DataClass": "UnlockedPotential",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Avatar",
+        "SkillName": "Embracing Power I",
+        "SkillDescription": "Embracing Power I",
+        "DataClass": "EmbracingPower",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Avatar",
+        "SkillName": "Defensive Warrior I",
+        "SkillDescription": "Defensive Warrior I",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DefensivePowerEffectsBonusPercent",
+                        "DestinationStatType": "DefensivePowerEffectsBonusPercent",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Avatar",
+        "SkillName": "Dedicated Fury I",
+        "SkillDescription": "Dedicated Fury I",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "RequiredPreviousAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Avatar",
+        "SkillName": "Unlocked Potential II",
+        "SkillDescription": "Unlocked Potential II",
+        "DataClass": "UnlockedPotential",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Avatar",
+        "SkillName": "Embracing Power II",
+        "SkillDescription": "Embracing Power II",
+        "DataClass": "EmbracingPower",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Avatar",
+        "SkillName": "Defensive Warrior II",
+        "SkillDescription": "Defensive Warrior II",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DefensivePowerEffectsBonusPercent",
+                        "DestinationStatType": "DefensivePowerEffectsBonusPercent",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Avatar",
+        "SkillName": "Dedicated Fury II",
+        "SkillDescription": "Dedicated Fury II",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "RequiredPreviousAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Avatar",
+        "SkillName": "Unlocked Potential III",
+        "SkillDescription": "Unlocked Potential III",
+        "DataClass": "UnlockedPotential",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Avatar",
+        "SkillName": "Embracing Power III",
+        "SkillDescription": "Embracing Power III",
+        "DataClass": "EmbracingPower",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": 3,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Avatar",
+        "SkillName": "Defensive Warrior III",
+        "SkillDescription": "Defensive Warrior III",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DefensivePowerEffectsBonusPercent",
+                        "DestinationStatType": "DefensivePowerEffectsBonusPercent",
+                        "FullFloat": 0.15,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Avatar",
+        "SkillName": "Dedicated Fury III",
+        "SkillDescription": "Dedicated Fury III",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "RequiredPreviousAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.15,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Avatar",
+        "SkillName": "Unlocked Potential IV",
+        "SkillDescription": "Unlocked Potential IV",
+        "DataClass": "UnlockedPotential",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.15,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Avatar",
+        "SkillName": "Embracing Power IV",
+        "SkillDescription": "Embracing Power IV",
+        "DataClass": "EmbracingPower",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": 4,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Avatar",
+        "SkillName": "Defensive Warrior IV",
+        "SkillDescription": "Defensive Warrior IV",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DefensivePowerEffectsBonusPercent",
+                        "DestinationStatType": "DefensivePowerEffectsBonusPercent",
+                        "FullFloat": 0.2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Avatar",
+        "SkillName": "Dedicated Fury IV",
+        "SkillDescription": "Dedicated Fury IV",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "RequiredPreviousAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Avatar",
+        "SkillName": "Unlocked Potential V",
+        "SkillDescription": "Unlocked Potential V",
+        "DataClass": "UnlockedPotential",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Avatar",
+        "SkillName": "Embracing Power V",
+        "SkillDescription": "Embracing Power V",
+        "DataClass": "EmbracingPower",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "HealthRegen",
+                        "DestinationStatType": "HealthRegen",
+                        "FullInt": 5,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Avatar",
+        "SkillName": "Defensive Warrior V",
+        "SkillDescription": "Defensive Warrior V",
+        "DataClass": "DefensiveWarrior",
+        "StatChanges": [
+            {
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DefensivePowerEffectsBonusPercent",
+                        "DestinationStatType": "DefensivePowerEffectsBonusPercent",
+                        "FullFloat": 0.25,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Avatar",
+        "SkillName": "Dedicated Fury V",
+        "SkillDescription": "Dedicated Fury V",
+        "DataClass": "DedicatedFury",
+        "StatChanges": [
+            {
+                "RequiredAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "RequiredPreviousAttackTypesOR": [
+                    "PowerHoly",
+                    "PowerFire",
+                    "PowerIce",
+                    "PowerShock",
+                    "PowerDark",
+                    "PowerLight",
+                    "PowerForce",
+                    "PowerMind",
+                    "PowerEarth",
+                    "PowerBlood",
+                    "PowerFlesh",
+                    "PowerWind"
+                ],
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 0.25,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

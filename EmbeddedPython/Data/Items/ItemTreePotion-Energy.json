@@ -1,0 +1,152 @@
+{
+    "VeryWeakEnergyPotion": {
+        "ItemDescription": "Very Weak Energy Potion",
+        "ItemName": "Very Weak Energy Potion",
+        "ItemType": "PotionEnergy",
+        "DataClass": "EnergyPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionEnergy"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionEnergy"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsCurrent",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 0.10,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "WeakEnergyPotion": {
+        "ItemDescription": "Weak Energy Potion",
+        "ItemName": "Weak Energy Potion",
+        "ItemType": "PotionEnergy",
+        "DataClass": "EnergyPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionEnergy"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionEnergy"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsCurrent",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 0.20,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "AverageEnergyPotion": {
+        "ItemDescription": "Average Energy Potion",
+        "ItemName": "Average Energy Potion",
+        "ItemType": "PotionEnergy",
+        "DataClass": "EnergyPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionEnergy"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionEnergy"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsCurrent",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 0.30,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "StrongEnergyPotion": {
+        "ItemDescription": "Strong Energy Potion",
+        "ItemName": "Strong Energy Potion",
+        "ItemType": "PotionEnergy",
+        "DataClass": "EnergyPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionEnergy"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionEnergy"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsCurrent",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 0.40,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "VeryStrongEnergyPotion": {
+        "ItemDescription": "Very Strong Energy Potion",
+        "ItemName": "Very Strong Energy Potion",
+        "ItemType": "PotionEnergy",
+        "DataClass": "EnergyPotion",
+        "RunTypes": [
+            "Battle",
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionEnergy"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionEnergy"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "EnergyPointsCurrent",
+                        "DestinationStatType": "EnergyPointsCurrent",
+                        "FullPercent": 0.50,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

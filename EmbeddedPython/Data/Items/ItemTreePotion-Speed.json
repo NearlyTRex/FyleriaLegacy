@@ -1,0 +1,147 @@
+{
+    "VeryWeakSpeedPotion": {
+        "ItemDescription": "Very Weak Speed Potion",
+        "ItemName": "Very Weak Speed Potion",
+        "ItemType": "PotionSpeed",
+        "DataClass": "SpeedPotion",
+        "RunTypes": [
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionSpeed"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionSpeed"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.2,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "WeakSpeedPotion": {
+        "ItemDescription": "Weak Speed Potion",
+        "ItemName": "Weak Speed Potion",
+        "ItemType": "PotionSpeed",
+        "DataClass": "SpeedPotion",
+        "RunTypes": [
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionSpeed"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionSpeed"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.4,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "AverageSpeedPotion": {
+        "ItemDescription": "Average Speed Potion",
+        "ItemName": "Average Speed Potion",
+        "ItemType": "PotionSpeed",
+        "DataClass": "SpeedPotion",
+        "RunTypes": [
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionSpeed"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionSpeed"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.6,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "StrongSpeedPotion": {
+        "ItemDescription": "Strong Speed Potion",
+        "ItemName": "Strong Speed Potion",
+        "ItemType": "PotionSpeed",
+        "DataClass": "SpeedPotion",
+        "RunTypes": [
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionSpeed"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionSpeed"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.8,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "VeryStrongSpeedPotion": {
+        "ItemDescription": "Very Strong Speed Potion",
+        "ItemName": "Very Strong Speed Potion",
+        "ItemType": "PotionSpeed",
+        "DataClass": "SpeedPotion",
+        "RunTypes": [
+            "Field"
+        ],
+        "ActionTypes": [
+            "ItemPotionSpeed"
+        ],
+        "StatChanges": [
+            {
+                "RequiredItemUsedTypesOR": [
+                    "PotionSpeed"
+                ],
+                "SourceTargetType": "ActionTargetsThisAction",
+                "DestinationTargetType": "ActionTargetsThisAction",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 2.0,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    }
+}

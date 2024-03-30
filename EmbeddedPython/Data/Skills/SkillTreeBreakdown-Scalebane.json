@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Scalebane",
+        "SkillName": "Apprentice Pryer I",
+        "SkillDescription": "Apprentice Pryer I",
+        "DataClass": "ApprenticePryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Scalebane",
+        "SkillName": "Scale Adept I",
+        "SkillDescription": "Scale Adept I",
+        "DataClass": "ScaleAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Scalebane",
+        "SkillName": "Lucky Pull I",
+        "SkillDescription": "Lucky Pull I",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Scalebane",
+        "SkillName": "Adept Pryer I",
+        "SkillDescription": "Adept Pryer I",
+        "DataClass": "AdeptPryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Scalebane",
+        "SkillName": "Thorough Cleaner I",
+        "SkillDescription": "Thorough Cleaner I",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Scalebane",
+        "SkillName": "Keen Eye I",
+        "SkillDescription": "Keen Eye I",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Scalebane",
+        "SkillName": "Master Pryer I",
+        "SkillDescription": "Master Pryer I",
+        "DataClass": "MasterPryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Scalebane",
+        "SkillName": "Scale Master I",
+        "SkillDescription": "Scale Master I",
+        "DataClass": "ScaleMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Scalebane",
+        "SkillName": "Lucky Pull II",
+        "SkillDescription": "Lucky Pull II",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Scalebane",
+        "SkillName": "Obsessed Cleaner I",
+        "SkillDescription": "Obsessed Cleaner I",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Scalebane",
+        "SkillName": "Apprentice Pryer II",
+        "SkillDescription": "Apprentice Pryer II",
+        "DataClass": "ApprenticePryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Scalebane",
+        "SkillName": "Scale Adept II",
+        "SkillDescription": "Scale Adept II",
+        "DataClass": "ScaleAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Scalebane",
+        "SkillName": "Lucky Pull III",
+        "SkillDescription": "Lucky Pull III",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Scalebane",
+        "SkillName": "Adept Pryer II",
+        "SkillDescription": "Adept Pryer II",
+        "DataClass": "AdeptPryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Scalebane",
+        "SkillName": "Thorough Cleaner II",
+        "SkillDescription": "Thorough Cleaner II",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Scalebane",
+        "SkillName": "Keen Eye II",
+        "SkillDescription": "Keen Eye II",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Scalebane",
+        "SkillName": "Master Pryer II",
+        "SkillDescription": "Master Pryer II",
+        "DataClass": "MasterPryer",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Scalebane",
+        "SkillName": "Iron Master",
+        "SkillDescription": "Iron Master",
+        "DataClass": "IronMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Scalebane",
+        "SkillName": "Lucky Pull IV",
+        "SkillDescription": "Lucky Pull IV",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Scalebane",
+        "SkillName": "Obsessed Cleaner II",
+        "SkillDescription": "Obsessed Cleaner II",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

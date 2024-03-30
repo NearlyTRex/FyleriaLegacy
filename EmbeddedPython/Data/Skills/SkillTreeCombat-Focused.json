@@ -1,0 +1,503 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Focused",
+        "SkillName": "Empty Handed I",
+        "SkillDescription": "Empty Handed I",
+        "DataClass": "EmptyHanded",
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Focused",
+        "SkillName": "Guarded Stance I",
+        "SkillDescription": "Guarded Stance I",
+        "DataClass": "GuardedStance",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Focused",
+        "SkillName": "Minimalist I",
+        "SkillDescription": "Minimalist I",
+        "DataClass": "Minimalist",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.05,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Focused",
+        "SkillName": "Focused Strike I",
+        "SkillDescription": "Focused Strike I",
+        "DataClass": "FocusedStrike",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 5,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Focused",
+        "SkillName": "Empty Handed II",
+        "SkillDescription": "Empty Handed II",
+        "DataClass": "EmptyHanded",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.25,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Focused",
+        "SkillName": "Extra Perceptive I",
+        "SkillDescription": "Extra Perceptive I",
+        "DataClass": "ExtraPerceptive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.05,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Focused",
+        "SkillName": "Enhanced Aim I",
+        "SkillDescription": "Enhanced Aim I",
+        "DataClass": "EnchancedAim",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Focused",
+        "SkillName": "Deadly Retribution I",
+        "SkillDescription": "Deadly Retribution I",
+        "DataClass": "DeadlyRetribution",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 10,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DamageTakenThisRound",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullPercent": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Focused",
+        "SkillName": "Empty Handed III",
+        "SkillDescription": "Empty Handed III",
+        "DataClass": "EmptyHanded",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.5,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Focused",
+        "SkillName": "Guarded Stance II",
+        "SkillDescription": "Guarded Stance II",
+        "DataClass": "GuardedStance",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Focused",
+        "SkillName": "Minimalist II",
+        "SkillDescription": "Minimalist II",
+        "DataClass": "Minimalist",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.1,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Focused",
+        "SkillName": "Focused Strike II",
+        "SkillDescription": "Focused Strike II",
+        "DataClass": "FocusedStrike",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 4,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Focused",
+        "SkillName": "Empty Handed IV",
+        "SkillDescription": "Empty Handed IV",
+        "DataClass": "EmptyHanded",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 1.75,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Focused",
+        "SkillName": "Extra Perceptive II",
+        "SkillDescription": "Extra Perceptive II",
+        "DataClass": "ExtraPerceptive",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "ChanceToBlockCriticalHit",
+                        "DestinationStatType": "ChanceToBlockCriticalHit",
+                        "FullFloat": 0.1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Focused",
+        "SkillName": "Enhanced Aim II",
+        "SkillDescription": "Enhanced Aim II",
+        "DataClass": "EnchancedAim",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "CriticalHitMultiplier",
+                        "DestinationStatType": "CriticalHitMultiplier",
+                        "FullFloat": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Focused",
+        "SkillName": "Deadly Retribution II",
+        "SkillDescription": "Deadly Retribution II",
+        "DataClass": "DeadlyRetribution",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 9,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "DamageTakenThisRound",
+                        "DestinationStatType": "GeneralDamageBonusValue",
+                        "FullPercent": 1,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Focused",
+        "SkillName": "Empty Handed V",
+        "SkillDescription": "Empty Handed V",
+        "DataClass": "EmptyHanded",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 2.0,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Focused",
+        "SkillName": "Guarded Stance III",
+        "SkillDescription": "Guarded Stance III",
+        "DataClass": "GuardedStance",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "SlashDefense",
+                        "DestinationStatType": "SlashDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "BluntDefense",
+                        "DestinationStatType": "BluntDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    },
+                    {
+                        "SourceStatType": "PierceDefense",
+                        "DestinationStatType": "PierceDefense",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Focused",
+        "SkillName": "Minimalist III",
+        "SkillDescription": "Minimalist III",
+        "DataClass": "Minimalist",
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "Speed",
+                        "DestinationStatType": "Speed",
+                        "FullPercent": 1.15,
+                        "OperationType": "Set"
+                    }
+                ]
+            }
+        ]
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Focused",
+        "SkillName": "Focused Strike III",
+        "SkillDescription": "Focused Strike III",
+        "DataClass": "FocusedStrike",
+        "RunTypes": [
+            "Battle"
+        ],
+        "SkillCostHP": 3,
+        "StatChanges": [
+            {
+                "RequiredEquippedWeaponCount": 1,
+                "RequiredEquippedShieldCount": 0,
+                "SourceTargetType": "Self",
+                "DestinationTargetType": "Self",
+                "StatChangeEntries": [
+                    {
+                        "SourceStatType": "GeneralDamageBonusPercent",
+                        "DestinationStatType": "GeneralDamageBonusPercent",
+                        "FullFloat": 2,
+                        "OperationType": "Add"
+                    }
+                ]
+            }
+        ]
+    }
+}

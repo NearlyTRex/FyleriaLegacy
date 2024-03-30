@@ -1,0 +1,20 @@
+{
+    "Cloth": {
+        "ItemDescription": "Cloth",
+        "ItemName": "Cloth",
+        "ItemType": "IngredientCloth",
+        "StatChanges": []
+    },
+    "BronzeWeaveCloth": {
+        "ItemDescription": "Bronze Weave Cloth",
+        "ItemName": "Bronze Weave Cloth",
+        "ItemType": "IngredientCloth",
+        "StatChanges": []
+    },
+    "IronWeaveCloth": {
+        "ItemDescription": "Iron Weave Cloth",
+        "ItemName": "Iron Weave Cloth",
+        "ItemType": "IngredientCloth",
+        "StatChanges": []
+    }
+}

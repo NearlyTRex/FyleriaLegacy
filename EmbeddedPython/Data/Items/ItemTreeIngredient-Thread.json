@@ -1,0 +1,20 @@
+{
+    "Thread": {
+        "ItemDescription": "Thread",
+        "ItemName": "Thread",
+        "ItemType": "IngredientThread",
+        "StatChanges": []
+    },
+    "BronzeThread": {
+        "ItemDescription": "Bronze Thread",
+        "ItemName": "Bronze Thread",
+        "ItemType": "IngredientThread",
+        "StatChanges": []
+    },
+    "IronThread": {
+        "ItemDescription": "Iron Thread",
+        "ItemName": "Iron Thread",
+        "ItemType": "IngredientThread",
+        "StatChanges": []
+    }
+}
