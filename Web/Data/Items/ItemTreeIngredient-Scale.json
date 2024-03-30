@@ -1,0 +1,14 @@
+{
+    "BronzeScalePouch": {
+        "ItemDescription": "Bronze Scale Pouch",
+        "ItemName": "Bronze Scale Pouch",
+        "ItemType": "IngredientScale",
+        "StatChanges": []
+    },
+    "IronScalePouch": {
+        "ItemDescription": "Iron Scale Pouch",
+        "ItemName": "Iron Scale Pouch",
+        "ItemType": "IngredientScale",
+        "StatChanges": []
+    }
+}

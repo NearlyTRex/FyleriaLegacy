@@ -1,0 +1,122 @@
+{
+    "RedCrystalShard": {
+        "ItemDescription": "Red Crystal Shard",
+        "ItemName": "Red Crystal Shard",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "BlueCrystalShard": {
+        "ItemDescription": "Blue Crystal Shard",
+        "ItemName": "Blue Crystal Shard",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "GoldCrystalShard": {
+        "ItemDescription": "Gold Crystal Shard",
+        "ItemName": "Gold Crystal Shard",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SilverCrystalShard": {
+        "ItemDescription": "Silver Crystal Shard",
+        "ItemName": "Silver Crystal Shard",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "TinyRedCrystal": {
+        "ItemDescription": "Tiny Red Crystal",
+        "ItemName": "Tiny Red Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "TinyBlueCrystal": {
+        "ItemDescription": "Tiny Blue Crystal",
+        "ItemName": "Tiny Blue Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "TinyGoldCrystal": {
+        "ItemDescription": "Tiny Gold Crystal",
+        "ItemName": "Tiny Gold Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "TinySilverCrystal": {
+        "ItemDescription": "Tiny Silver Crystal",
+        "ItemName": "Tiny Silver Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SmallRedCrystal": {
+        "ItemDescription": "Small Red Crystal",
+        "ItemName": "Small Red Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SmallBlueCrystal": {
+        "ItemDescription": "Small Blue Crystal",
+        "ItemName": "Small Blue Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SmallGoldCrystal": {
+        "ItemDescription": "Small Gold Crystal",
+        "ItemName": "Small Gold Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SmallSilverCrystal": {
+        "ItemDescription": "Small Silver Crystal",
+        "ItemName": "Small Silver Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "RedCrystal": {
+        "ItemDescription": "Red Crystal",
+        "ItemName": "Red Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "BlueCrystal": {
+        "ItemDescription": "Blue Crystal",
+        "ItemName": "Blue Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "GoldCrystal": {
+        "ItemDescription": "Gold Crystal",
+        "ItemName": "Gold Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "SilverCrystal": {
+        "ItemDescription": "Silver Crystal",
+        "ItemName": "Silver Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "LargeRedCrystal": {
+        "ItemDescription": "Large Red Crystal",
+        "ItemName": "Large Red Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "LargeBlueCrystal": {
+        "ItemDescription": "Large Blue Crystal",
+        "ItemName": "Large Blue Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "LargeGoldCrystal": {
+        "ItemDescription": "Large Gold Crystal",
+        "ItemName": "Large Gold Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    },
+    "LargeSilverCrystal": {
+        "ItemDescription": "Large Silver Crystal",
+        "ItemName": "Large Silver Crystal",
+        "ItemType": "IngredientCrystal",
+        "StatChanges": []
+    }
+}

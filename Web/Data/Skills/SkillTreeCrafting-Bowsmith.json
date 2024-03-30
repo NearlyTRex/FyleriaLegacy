@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe I",
+        "SkillDescription": "Recipe I",
+        "DataClass": "RecipeI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe II",
+        "SkillDescription": "Recipe II",
+        "DataClass": "RecipeII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe III",
+        "SkillDescription": "Recipe III",
+        "DataClass": "RecipeIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe IV",
+        "SkillDescription": "Recipe IV",
+        "DataClass": "RecipeIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Bowsmith",
+        "SkillName": "Bronze Adept",
+        "SkillDescription": "Bronze Adept",
+        "DataClass": "BronzeAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe V",
+        "SkillDescription": "Recipe V",
+        "DataClass": "RecipeV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe VI",
+        "SkillDescription": "Recipe VI",
+        "DataClass": "RecipeVI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe VII",
+        "SkillDescription": "Recipe VII",
+        "DataClass": "RecipeVII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe VIII",
+        "SkillDescription": "Recipe VIII",
+        "DataClass": "RecipeVIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Bowsmith",
+        "SkillName": "Bronze Master",
+        "SkillDescription": "Bronze Master",
+        "DataClass": "BronzeMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe IX",
+        "SkillDescription": "Recipe IX",
+        "DataClass": "RecipeIX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe X",
+        "SkillDescription": "Recipe X",
+        "DataClass": "RecipeX",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XI",
+        "SkillDescription": "Recipe XI",
+        "DataClass": "RecipeXI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XII",
+        "SkillDescription": "Recipe XII",
+        "DataClass": "RecipeXII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Bowsmith",
+        "SkillName": "Iron Adept",
+        "SkillDescription": "Iron Adept",
+        "DataClass": "IronAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XIII",
+        "SkillDescription": "Recipe XIII",
+        "DataClass": "RecipeXIII",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XIV",
+        "SkillDescription": "Recipe XIV",
+        "DataClass": "RecipeXIV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XV",
+        "SkillDescription": "Recipe XV",
+        "DataClass": "RecipeXV",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Bowsmith",
+        "SkillName": "Recipe XVI",
+        "SkillDescription": "Recipe XVI",
+        "DataClass": "RecipeXVI",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Bowsmith",
+        "SkillName": "Iron Master",
+        "SkillDescription": "Iron Master",
+        "DataClass": "IronMaster",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

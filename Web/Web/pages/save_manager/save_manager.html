@@ -1,0 +1,153 @@
+<html>
+<div class="container">
+
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Initialize Save Slots</label>
+            <div class="col-sm-8">
+                <button type="button" class="btn btn-primary form-control" id="initalizeSaveSlots_submit">Initialize Save Slots</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Manager -> Save</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="pullSave_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="pullSave_partyID" placeholder="Party Identifier" />
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="pullSave_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save -> Manager</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="pushSave_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="pushSave_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load Save</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="loadSave_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-6">
+                <textarea style="resize: none;" class="form-control" rows="3" id="loadSave_textarea" placeholder="Raw save data"></textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadSave_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unload Save</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="unloadSave_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="unloadSave_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From File</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="loadFromFile_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="loadFromFile_saveType">
+                </select>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="loadFromFile_filename" placeholder="Filename" />
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadFromFile_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save To File</label>
+            <div class="col-sm-2">
+                <select class="form-control" id="saveToFile_saveSlot">
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="saveToFile_saveType">
+                </select>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="saveToFile_filename" placeholder="Filename" />
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="saveToFile_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save All To Dir</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="saveAllToDir_directory" placeholder="Directory" />
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="saveAllToDir_basename" placeholder="Basename" />
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="saveAllToDir_extension" placeholder="Extension" />
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="saveAllToDir_saveType">
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="saveAllToDir_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load All From Dir</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="loadAllFromDir_directory" placeholder="Directory" />
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="loadAllFromDir_basename" placeholder="Basename" />
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="loadAllFromDir_extension" placeholder="Extension" />
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="loadAllFromDir_saveType">
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadAllFromDir_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group" id="saveDataGroup">
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript" src="save_manager.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+"use strict";
+$(document).ready(function () {
+    if (configData.useWebsocket) {
+        SaveManager.init(WebsocketServer);
+    }
+    else if (configData.useRest) {
+        SaveManager.init(RestServer);
+    }
+});
+//]]>
+</script>
+</html>

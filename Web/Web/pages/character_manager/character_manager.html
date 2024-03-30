@@ -1,0 +1,961 @@
+<html>
+<div class="container">
+
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From JSON</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="loadCharacterFromJson_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+                <textarea style="resize: none;" class="form-control" rows="3" id="loadCharacterFromJson_textarea" placeholder="Raw character data"></textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadCharacterFromJson_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load From File</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="loadCharacterFromFile_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="loadCharacterFromFile_filename" placeholder="Filename" />
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadCharacterFromFile_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Save To File</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="saveCharacterToFile_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="saveCharacterToFile_filename" placeholder="Filename" />
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="saveCharacterToFile_submit">Run</button>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unload Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="unloadCharacter_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="unloadCharacter_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Generate Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="generateCharacter_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+                <textarea style="resize: none;" class="form-control" rows="3" id="generateCharacter_textarea" placeholder="Raw character generator data"></textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="generateCharacter_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Edit Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="editCharacter_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="editCharacter_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Create Character</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="createCharacter_charID" placeholder="Character Identifier"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_fname" placeholder="First Name"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_lname" placeholder="Last Name"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_age" placeholder="Age"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_gender">
+                    <option value="">Gender...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_hair">
+                    <option value="">Hair...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_eyes">
+                    <option value="">Eyes...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_handed">
+                    <option value="">Handedness...</option>
+                </select>
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_powerset">
+                    <option value="">Power Set...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_baserace">
+                    <option value="">Base Race...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_transformedrace">
+                    <option value="">Transformed Race...</option>
+                </select>
+            </div>
+            <div class="col-sm-3">
+                <select class="form-control" id="createCharacter_currentweaponset">
+                    <option value="">Weapon Set...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weapon 1 Left</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weapon1left" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Weapon 1 Right</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weapon1right" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Neck</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_neck" readonly="readonly"></input>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weapon 2 Left</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weapon2left" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Weapon 2 Right</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weapon2right" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Head</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_head" readonly="readonly"></input>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Left Fingers</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_leftfingers" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Right Fingers</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_rightfingers" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Hands</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_hands" readonly="readonly"></input>
+            </div>
+        </div>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Feet</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_feet" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Legs</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_legs" readonly="readonly"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Chest</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_chest" readonly="readonly"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Health</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_hpcur" placeholder="Cur"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_hpmax" placeholder="Max"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_hpregen" placeholder="Reg"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_hpdelta" placeholder="Delta"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Blunt</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_batk" placeholder="Atk"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_bdef" placeholder="Def"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Pierce</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_patk" placeholder="Atk"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_pdef" placeholder="Def"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Magic</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_mpcur" placeholder="Cur"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_mpmax" placeholder="Max"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_mpregen" placeholder="Reg"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_mpdelta" placeholder="Delta"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Magic</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_matk" placeholder="Atk"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_mdef" placeholder="Def"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Energy</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_eatk" placeholder="Atk"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_edef" placeholder="Def"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Energy</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_epcur" placeholder="Cur"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_epmax" placeholder="Max"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_epregen" placeholder="Reg"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_epdelta" placeholder="Delta"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Slash</label>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_satk" placeholder="Atk"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_sdef" placeholder="Def"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Speed</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_speed" placeholder="Speed"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Slash</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slash_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slash_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_slash_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Sever</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_sever_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_sever_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_sever_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Slice</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slice_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slice_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_slice_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Slit</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slit_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_slit_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_slit_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Cleave</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_cleave_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_cleave_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_cleave_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Decapitate</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_decapitate_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_decapitate_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_decapitate_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Parry</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_parry_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_parry_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_parry_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Riposte</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_riposte_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_riposte_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_riposte_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Bash</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bash_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bash_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_bash_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Smash</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_smash_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_smash_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_smash_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Crush</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_crush_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_crush_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_crush_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Impact</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_impact_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_impact_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_impact_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Break</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_break_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_break_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_break_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Crack</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_crack_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_crack_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_crack_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Block</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_block_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_block_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_block_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Rush</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_rush_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_rush_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_rush_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Pierce</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_pierce_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_pierce_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_pierce_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Drill</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_drill_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_drill_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_drill_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Shoot</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shoot_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shoot_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_shoot_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Impale</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_impale_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_impale_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_impale_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Stealth Strike</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_sstrike_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_sstrike_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_sstrike_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Critical Shot</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_cshot_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_cshot_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_cshot_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-1 col-form-label">Dodge</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_dodge_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_dodge_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_dodge_ap" placeholder="AP"></input>
+            </div>
+            <label class="col-sm-1 col-form-label">Counter</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_counter_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_counter_rank" placeholder="Rank"></input>
+            </div>
+            <div class="col-sm-1">
+                <input type="text" class="form-control" id="createCharacter_counter_ap" placeholder="AP"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Barbarian</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_barbarian_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_barbarian_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Mage</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_mage_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_mage_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Rogue</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_rogue_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_rogue_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Blademaster</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_blademaster_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_blademaster_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Avatar</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_avatar_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_avatar_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Ambidextrous</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_ambidext_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_ambidext_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Focused</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_focused_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_focused_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Stalwart</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_stalwart_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_stalwart_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Healer</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_healer_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_healer_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Alchemist</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_alchemist_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_alchemist_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Energist</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_energist_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_energist_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Chemist</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_chemist_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_chemist_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Hammersmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_hammersmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_hammersmith_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Spellsmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_spellsmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_spellsmith_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Bowsmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bowsmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bowsmith_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Swordsmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_swordsmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_swordsmith_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Weaver</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weaver_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_weaver_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Tanner</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_tanner_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_tanner_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Scalesmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_scalesmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_scalesmith_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Platesmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_platesmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_platesmith_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Goldsmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_goldsmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_goldsmith_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Shieldsmith</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shieldsmith_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shieldsmith_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Hammerbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_hammerbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_hammerbane_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Spellbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_spellbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_spellbane_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Bowbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bowbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_bowbane_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Swordbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_swordbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_swordbane_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Threadbare</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_threadbare_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_threadbare_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Stud Remover</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_studremover_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_studremover_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Scalebane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_scalebane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_scalebane_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Platebane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_platebane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_platebane_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Goldbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_goldbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_goldbane_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Shieldbane</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shieldbane_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shieldbane_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Holy</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_holy_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_holy_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Fire</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_fire_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_fire_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Ice</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_ice_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_ice_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Shock</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shock_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_shock_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Dark</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_dark_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_dark_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Light</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_light_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_light_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Force</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_force_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_force_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Mind</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_mind_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_mind_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Earth</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_earth_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_earth_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Blood</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_blood_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_blood_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Flesh</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_flesh_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_flesh_rank" placeholder="Rank"></input>
+            </div>
+            <label class="col-sm-2 col-form-label">Wind</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_wind_cur" placeholder="Current"></input>
+            </div>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="createCharacter_wind_rank" placeholder="Rank"></input>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-9">
+            </div>
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-primary form-control" id="createCharacter_submit">Run</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+<script type="text/javascript" src="character_manager.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+"use strict";
+$(document).ready(function () {
+    if (configData.useWebsocket) {
+        CharacterManager.init(WebsocketServer);
+    }
+    else if (configData.useRest) {
+        CharacterManager.init(RestServer);
+    }
+});
+//]]>
+</script>
+</html>

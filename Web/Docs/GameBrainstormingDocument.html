@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Fyleria - Game Brainstorming Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#toc").append('<p><b>Table of Contents</b></p>')
+            $('[id^="section"]').each(function(i) {
+                var current = $(this);
+                current.attr("id", "title" + i);
+                $("#toc").append("<p>" + (i + 1) + ") <a id='link" + i + "' href='#title" + i + "' title='" + current.attr("tagName") + "'>" + current.html() + "</a></p>");
+            });
+        });
+    </script>
+    <style type="text/css">
+        p {
+            margin: 0px;
+            padding: 0px;
+            border: none;
+            width: 100%;
+            text-align: left;
+        }
+        
+        ul {
+            margin: 0px;
+            padding 0px;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+        }
+        
+        td,
+        th {
+            margin: auto;
+            padding: 2px;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        table {
+            width: 90%;
+            margin: auto;
+        }
+        
+        caption {
+            font-weight: bold;
+        }
+        
+        hr {
+            width: 70%;
+        }
+        
+        ul {
+            list-style-type: square;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Rise of the Pantheon: Goddess Rising (Parts I - III)</h1>
+    <h2>Game Brainstorming Document</h2>
+    <hr>
+    <div id="toc"></div>
+    <div id="content">
+        <br />
+        <hr>
+        <h2 id="section">January 8, 2015</h2>
+        <hr>
+        <p><b>General ideas</b> </p>
+        <ul>
+            <li>Skill books that give people small stat boosts (like the potions that increase +1 DEF, etc)</li>
+            <li>Sword Chucks &amp; Armoire of Invincibility (-50 defense, bad or joke item, some chance for something awesome)</li>
+            <li>Secret dungeon after beating game</li>
+            <li>Bestiary to look at every enemy (like pokedex?)</li>
+            <li>Bonus enemies that are super powerful</li>
+            <li>Difficulty settings, one that has enemies that level with you</li>
+            <li>Arena for getting hidden item</li>
+            <li>Stores that have exclusive items based on the main character</li>
+        </ul>
+        <hr>
+        <h2 id="section">January 15, 2015</h2>
+        <hr>
+        <p><b>Battle system examples</b>
+        </p>
+        <ul>
+            <li>Frontal view battle system (Lufia, Dragon Warrior, Wizardry)</li>
+            <li>Linear motion battle system (Tales series)</li>
+            <li>Sideline turn battle system (FF1-3)</li>
+            <li>Active time battle system (FF4-6, Grandia)</li>
+            <li>Full action battle system (Star Ocean)</li>
+            <li>Strategy battle system (Final Fantasy Tactics, Vandal Hearts)</li>
+            <li>Military battle system (Fire Emblem, Super Robot Wars)</li>
+            <li>Duel battle system (Pokemon, Yu-gi-oh)</li>
+        </ul>
+        <br />
+        <p><b>Battle system ideas</b>
+        </p>
+        <ul>
+            <li>Simple enough that it can be completed within 6-12 months or less</li>
+            <li>Turn based system, not active</li>
+            <li>Based on speed of character, maybe can go more than once before the enemy can go</li>
+            <li>Timeline bar like Grandia (or FFX) where you see the time meter and who is going to go next</li>
+            <li>Have it stop on your turn to open a window on what you will do?</li>
+            <li>2-3 characters fighting at a time, if a character drops, they can be replaced</li>
+            <li>Priority queue for your party that you set up ahead of time</li>
+            <li>Experience can be only gotten for characters that participated</li>
+            <li>Pull back a character and lose the turn you are on (counts as an action)</li>
+            <li>If the whole party is downed, then maybe they get captured?</li>
+            <li>Move over to a scene where they have to escape?</li>
+            <li>Enemies can capture downed characters and they cannot be revived or healed until the battle is won.</li>
+            <li>Want to make sure this doesn&rsquo;t happen often for people who are constantly losing battles -- could be jarring to see the same thing if you aren&rsquo;t doing well</li>
+            <li>Storyline wise it could help because it adds extra time for scenes</li>
+            <li>Non captured characters are the ones who have to travel somewhere to break them out?</li>
+            <li>Battle skills could be supplanted with breakout skills, like D&amp;D</li>
+            <li>Some enemy groups have higher or lower capture chance</li>
+            <li>Some enemies have absolutely no capture, and have it be a ratio so that people cannot always know</li>
+            <li>Decrease the capture likelihood with higher difficulty settings</li>
+            <li>Have unique battle elements that tie into and support the story (fight back for the portal in CH 1 and 2)</li>
+            <li>Switch between different battles</li>
+            <li>Nested battles that affect the outcomes of other battles (we heard you liked battles, so we put battles in your battles, so you could battle while you battle).</li>
+            <li>Relationship system relates to ability effects, powers, if they die or are close to death, they could get boosts (scream out, etc). This could start with a crit boost to be simple</li>
+            <li>Allow players to construct plans, perhaps at the risk of them going wrong</li>
+            <li>Customizable main attack</li>
+            <li>A few characters can do this</li>
+            <li>Two part component, earn new components with leveling</li>
+            <li>Characters can combine skills into shortcuts, like in Star Ocean.</li>
+            <ul>
+                <li>They have slots, and basic attacks.</li>
+                <li>This was for a live action battle system</li>
+            </ul>
+            <li>Characters could have a special ability that prevents them from dying or being downed</li>
+            <li>Passive effects, like the ones in FF6, if the health is 1-2% of total</li>
+            <li>Concept of what it will look like</li>
+            <li>You can move freely before committing to the attack you are using.</li>
+            <li>Some attacks can only be used at range or close up.</li>
+            <li>After attack, you are committed to the spot where you are standing.</li>
+            <li>Timeline like Grandia: <a href="https://www.youtube.com/watch?v=3KLgbzvm4O4">https://www.youtube.com/watch?v=3KLgbzvm4O4</a> </li>
+            <li>Battles are like Final Fantasy where the people are taking turns on a battle bar timeline, but visually they are moving towards the sprites if they are attacking them.</li>
+            <li>Timeline battle bar</li>
+            <li>Wait bars, maybe 2 or 3, or just the whole section</li>
+            <li>End of command bar means that they are able to enter commands</li>
+            <li>From command to execution, they still have a time to get to the execution</li>
+            <li>Sword attacks could go from command to execution very fast</li>
+            <li>Spells could take a bit longer</li>
+            <li>Preview of how long your command is going to take to get to execution</li>
+            <li>More badass abilities take longer to use</li>
+            <li>The look and feel of the battle system</li>
+            <li>Players and enemies intermix their location based on who or what they&rsquo;ve attacked.</li>
+            <li>Sprites have different states of animation and statuses.</li>
+            <li>The sprites move into a background depth but it is literally just the sprites moving up and down, and scaling them down/up so they look like they are moving into the background.</li>
+            <li>Battle bar with timeline (it destroys all)</li>
+            <li>Character portraits with basic information (health, magic, level)</li>
+            <li>Action selection window (Attack, Magic/Power, Item, Defend, Retreat)</li>
+            <li>Magic/Power selection window</li>
+            <li>Item selection window</li>
+            <li>Targeting rectangle to select enemies</li>
+            <li>Animations for magic or powers</li>
+            <li>Dialogue box for names of enemies, characters as they are selected</li>
+            <li>Dialogue box for speech bubbles in battle</li>
+            <li>Dialogue box for victory screen and what they earned</li>
+            <li>Sprites of characters don&rsquo;t change unless story makes it necessary</li>
+            <li>Character progression could be based on a random list constructed at the beginning.</li>
+            <li>Or it could be a very simplified skill tree, maybe get skill points where you can &ldquo;purchase&rdquo; a spell or skill that is something they could learn but they cannot learn everything, and have prerequisites. Like feats in D&amp;D.</li>
+            <li>We need to write a bunch of use cases that detail each step in various uses of the battle system.</li>
+            <li>Design one to two custom characters</li>
+            <li>Add in unlocked characters from future games</li>
+            <li>Side quests that will offer various challenges to give you an easter egg character</li>
+            <li>Character progression data will be saved and can be imported into newer games and when they show up they have the same stats later on, but don&rsquo;t get them unlocked from the start of the new game.</li>
+        </ul>
+        <br />
+        <hr>
+        <h2 id="section">March 3, 2015</h2>
+        <hr>
+        <p><b>Basic Ability Components</b>
+        </p>
+        <ul>
+            <li>Summon a character into the battlefield</li>
+            <li>Apply damage to a character</li>
+            <li>Apply a status effect</li>
+            <li>Apply a stat boost</li>
+            <li>Create a shield</li>
+            <li>Create a weapon</li>
+        </ul>
+        <br />
+        <p><b>Core Spells</b>
+        </p>
+        <ul>
+            <li>Defensive spells</li>
+            <li>Defensive AoE spells</li>
+        </ul>
+        <br />
+        <p><b>Categories</b>
+        </p>
+        <ul>
+            <li>Buff</li>
+            <ul>
+                <li>Individual</li>
+                <li>Area of Effect</li>
+            </ul>
+            <li>Utility</li>
+            <ul>
+                <li>Summon</li>
+                <li>Travel</li>
+            </ul>
+            <li>Healing</li>
+            <ul>
+                <li>Individual</li>
+                <li>AoE</li>
+                <li>Heal over time Individual</li>
+                <li>Heal over time AoE</li>
+            </ul>
+            <li>Damage</li>
+            <ul>
+                <li>Regular</li>
+            </ul>
+            <li>Damage over time</li>
+            <ul>
+                <li>Drain</li>
+                <li>Hold while dealing damage (status effect?)</li>
+                <li>Prevents them from moving or taking turn</li>
+            </ul>
+        </ul>
+        <br />
+        <p><b>Templates</b>
+        </p>
+        <ul>
+            <li>Missile</li>
+            <ul>
+                <li>Individual damage</li>
+                <li>High damage</li>
+            </ul>
+            <li>Bolt (eg. Energy Bolt)</li>
+            <ul>
+                <li>Individual damage over time</li>
+                <li>Lower damage</li>
+            </ul>
+            <li>Ball</li>
+            <ul>
+                <li>Individual drain</li>
+                <li>Lower damage</li>
+            </ul>
+            <li>Beam</li>
+            <ul>
+                <li>Individual hold</li>
+                <li>Lower damage</li>
+                <li>No damage ver, but knocks them out more effectively</li>
+            </ul>
+            <li>Wave (Aoe Missile), Bomb (thrown)</li>
+            <ul>
+                <li>Cone/spray (Aoe Bolt)</li>
+                <li>Rain/meteor (Aoe drain)</li>
+                <li>Column/lightning (Aoe hold)</li>
+            </ul>
+        </ul>
+        <br />
+        <p><b>Summons</b>
+        </p>
+        <ul>
+            <li>Only one summon per character at a time</li>
+            <ul>
+                <li>Ex party of 4 chars can summon up to 4 summons</li>
+                <li>If already out, the same entry in the menu would be greyed out</li>
+            </ul>
+            <li>Control</li>
+            <ul>
+                <li>Summon characters can be setup to be manual or auto controlled</li>
+                <li>Auto controlled characters have behavior scripts</li>
+            </ul>
+            <li>Animations</li>
+            <ul>
+                <li>Can have multiple animations but still be considered a single unit</li>
+            </ul>
+            <li>Health</li>
+            <ul>
+                <li>Each unit has its own health and stats that gets reset at the beginning of battle</li>
+                <li>If replaced with another unit before the first one is defeated, the original</li>
+            </ul>
+        </ul>
+        <br />
+        <p><b>Spell Examples</b>
+        </p>
+        <ul>
+            <li>Portal - travel to a given location, open up world map for fast travel</li>
+            <ul>
+                <li>Have to leave someone behind, item version</li>
+                <li>Don&rsquo;t have to leave someone, if using spell version</li>
+            </ul>
+            <li>Leaf shuriken, turns leaves into flying missiles</li>
+        </ul>
+        <br />
+        <hr>
+        <h2 id="section">March 29, 2015</h2>
+        <hr>
+        <p><b>Kickstarter ideas</b>
+        </p>
+        <ul>
+            <li>Finish one game and bring over save data to the second game</li>
+            <ul>
+                <li>Arc the lad, dot hack, walking dead games</li>
+            </ul>
+            <li>Expansions?</li>
+            <li>People need to know we have a reputation for finishing the games we start</li>
+            <li>RPGs with expansions? Need examples for this</li>
+            <li>Borderlands with level caps that increase, new quests</li>
+            <li>Characters you build over the games&hellip;</li>
+            <li>New game plus modes? Different modes or quests on new game plus</li>
+            <li>New sidequests</li>
+        </ul>
+        <br />
+        <p><b>Episodes</b>
+        </p>
+        <ul>
+            <li>Part of a book, half or a third of the content there, definitely a third of a book.</li>
+            <li>9 episodes for the first chunk and engine</li>
+            <li>Chunks of the engine without changing the basic engine</li>
+            <li>6-9 episodes for the first part without changing</li>
+            <li>New build with new features, like a new battle system</li>
+            <li>Bring characters back to their first appearance in a new game plus</li>
+            <li>Characters have to follow their storylines no matter what</li>
+            <li>Items or whatever that don&rsquo;t have limits can be brought back</li>
+            <li>Keep stats for each character through all episodes new game pluses</li>
+        </ul>
+        <br />
+        <p><b>Experience system for leveling</b>
+        </p>
+        <ul>
+            <li>We need to define character stats, levels, experience, etc</li>
+            <li>Since we are not doing the standard stats of STR, DEF, etc</li>
+            <li>Stats for defense, attack, adjusted based on armor/weapons, health points, magic points, power points. Base stats for character.</li>
+        </ul>
+        <br />
+        <p><b>Stats</b>
+        </p>
+        <ul>
+            <li>Health points / HP</li>
+            <li>Magic points / MP</li>
+            <li>Power points / PP</li>
+            <li>Speed - fill battle bar</li>
+            <li>Dodge - invisible stat? bonus perks based on a spell or skill. Perk tree?</li>
+            <ul>
+                <li>Blunt dodge</li>
+                <li>Slash dodge</li>
+                <li>Pierce dodge</li>
+                <li>Magic dodge</li>
+            </ul>
+            <li>Blunt attack</li>
+            <li>Slash attack</li>
+            <li>Pierce attack</li>
+            <li>Magic attack</li>
+            <li>Blunt defense</li>
+            <li>Slash defense</li>
+            <li>Pierce defense</li>
+            <li>Magic defense</li>
+        </ul>
+        <hr>
+        <h2 id="section">April 14, 2015</h2>
+        <hr>
+        <p><b>First Playable</b>
+        </p>
+        <ul>
+            <li>Town</li>
+            <ul>
+                <li>Player is able to move character around</li>
+                <li>Buildings that have collision</li>
+                <li>NPCs that are walking around randomly</li>
+                <li>NPCs also have collision</li>
+                <li>Have some atmospheric weather effects (clouds, rain)</li>
+                <li>Events</li>
+                <ul>
+                    <li>Cutscene from a trigger tile</li>
+                    <li>Cutscene from an action button</li>
+                    <li>Open a chest</li>
+                    <li>Enter/exit buildings</li>
+                    <li>Exit town transition to Dungeon</li>
+                    <li>Dialogue for NPCs</li>
+                    <li>Shop transitions</li>
+                    <li>Inventory transitions</li>
+                    <li>Save/load transitions</li>
+                </ul>
+            </ul>
+            <li>Shop</li>
+            <li>Inventory</li>
+            <li>Save/Load</li>
+            <li>Dungeon</li>
+            <ul>
+                <li>Player is able to move character around</li>
+                <li>Have random battle transitions</li>
+                <li>Player can exit dungeon to go back to town</li>
+            </ul>
+            <li>Battle</li>
+            <ul>
+                <li>Losing a battle and transitioning to Game Over</li>
+                <li>Losing a battle and transitioning to Capture</li>
+                <li>Winning a battle and transitioning to Dungeon</li>
+                <li>Have 3 test characters on player side</li>
+                <li>Have 3 test enemies on enemy side</li>
+                <li>Show the battle bar for time</li>
+                <li>Add all combatants to battle bar with random start times</li>
+                <li>When player char is at DECIDE phase, a menu box appears</li>
+                <li>When enemy char is at DECIDE phase, they choose ATTACK, and random opposite person to target</li>
+                <li>Menu box has ATTACK, MAGIC, ITEM, RUN</li>
+                <li>ATTACK shows target icon over first enemy</li>
+                <li>Target icon can be moved to any enemy and loops</li>
+                <li>If action button pressed over enemy, adds to action queue who is going to attack who.</li>
+                <li>If cancel button pressed over any, goes back to Menu Box</li>
+            </ul>
+            <li>Capture</li>
+            <ul>
+                <li>Cutscene at the start</li>
+                <li>Simon says minigame where they have to succeed 3 times to break free of bonds</li>
+                <li>Player is given control</li>
+                <li>Either have NPCs that start battle when &ldquo;talked to&rdquo; or random battles</li>
+                <li>They can move to the mini dungeon exit to transition to Dungeon</li>
+            </ul>
+            <li>Game Over</li>
+            <li>Introduction</li>
+            <li>Opening Menu</li>
+        </ul>
+        <br />
+    </div>
+</body>
+
+</html>

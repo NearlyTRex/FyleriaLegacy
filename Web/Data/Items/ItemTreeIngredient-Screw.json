@@ -1,0 +1,14 @@
+{
+    "BronzeScrewPouch": {
+        "ItemDescription": "Bronze Screw Pouch",
+        "ItemName": "Bronze Screw Pouch",
+        "ItemType": "IngredientScrew",
+        "StatChanges": []
+    },
+    "IronScrewPouch": {
+        "ItemDescription": "Iron Screw Pouch",
+        "ItemName": "Iron Screw Pouch",
+        "ItemType": "IngredientScrew",
+        "StatChanges": []
+    }
+}

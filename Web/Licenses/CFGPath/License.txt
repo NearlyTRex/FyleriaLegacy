@@ -1,0 +1,4 @@
+Copyright (C) 2013 Adam Nielsen <malvineous@shikadi.net>
+
+This code is placed in the public domain.  You are free to use it for any
+purpose.  If you add new platform support, please contribute a patch!

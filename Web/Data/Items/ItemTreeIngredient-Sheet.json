@@ -1,0 +1,14 @@
+{
+    "BronzeSheet": {
+        "ItemDescription": "Bronze Sheet",
+        "ItemName": "Bronze Sheet",
+        "ItemType": "IngredientSheet",
+        "StatChanges": []
+    },
+    "IronSheet": {
+        "ItemDescription": "Iron Sheet",
+        "ItemName": "Iron Sheet",
+        "ItemType": "IngredientSheet",
+        "StatChanges": []
+    }
+}

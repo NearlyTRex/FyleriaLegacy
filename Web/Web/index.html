@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Fyleria</title>
+    <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="alert alert-danger collase" role="alert" id="general-error">
+            <button type="button" aria-label="Close" class="close" id="general-error-close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <span id="general-error-text"></span>
+        </div>
+
+        <div class="modal fade" id="resultsModal" tabindex="-1" role="dialog" aria-labelledby="resultsModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" id="resultsModalHeader">
+                        <h5 class="modal-title" id="resultsModalLabel">Results</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="resultsModalBody">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default collapse page-selector">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="pageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Page Selector
+                </button>
+                <div class="dropdown-menu" aria-labelledby="pageMenu">
+                    <button class="dropdown-item" type="button" id="saveManagerButton">Save Manager</button>
+                    <button class="dropdown-item" type="button" id="characterManagerButton">Character Manager</button>
+                    <button class="dropdown-item" type="button" id="partyManagerButton">Party Manager</button>
+                </div>
+                <button type="button" class="btn btn-secondary" id="closePageButton">Close Page</button>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <br />
+            <span id="pageContent"></span>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="/lib/es6-promise/es6-promise.min.js"></script>
+    <script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="/config.js"></script>
+    <script type="text/javascript" src="/rest.js"></script>
+    <script type="text/javascript" src="/websocket.js"></script>
+    <script type="text/javascript" src="/pages/save_manager/save_manager.js"></script>
+    <script type="text/javascript" src="/pages/character_manager/character_manager.js"></script>
+    <script type="text/javascript" src="/pages/party_manager/party_manager.js"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+        "use strict";
+        var init = function () {
+            $("#general-error").hide();
+            if (configData.useWebsocket) {
+                WebsocketServer.construct(
+                    "ws://localhost:3080",
+                    "Main",
+                    onAPIOpen,
+                    onAPIClose
+                );
+            }
+            else if (configData.useRest) {
+                RestServer.construct(
+                    "http://localhost:3080",
+                    onAPIOpen,
+                    onAPIClose
+                );
+            }
+        };
+
+        var loadPage = function (url) {
+            $.ajax({
+                url : url,
+                contentType: "text/html",
+                success : function(response) {
+                    $("#pageContent").html(response);
+                }
+            });
+        };
+
+        var closePage = function () {
+            $("#pageContent").empty();
+        };
+
+        var displayResults = function (toggle, results) {
+            if (toggle) {
+                $("#resultsModalBody").html("<p>" + results + "</p>");
+                $("#resultsModal").modal("show");
+            }
+            else {
+                $("#resultsModalBody").html();
+                $("#resultsModal").modal("hide");
+            }
+        };
+
+        var onError = function (error) {
+            if (typeof error !== "undefined" && error.hasOwnProperty('errorCode') && error.hasOwnProperty('message')) {
+                var errorCode = error.errorCode;
+                var errorMessage = error.message;
+                errorMessage = errorMessage.replace(/</g, "&lt;");
+                errorMessage = errorMessage.replace(/>/g, "&gt;");
+                errorMessage = errorMessage.replace(/\n/g, "<br>");
+                $("#general-error-text").html(errorMessage);
+            }
+            else {
+                $("#general-error-text").html(error);
+            }
+            $("#general-error").show();
+        }
+
+        var onAPIOpen = function () {
+            $(".page-selector").show();
+            $("#saveManagerButton").click(function () { loadPage("/pages/save_manager/save_manager.html"); });
+            $("#characterManagerButton").click(function () { loadPage("/pages/character_manager/character_manager.html"); });
+            $("#partyManagerButton").click(function () { loadPage("/pages/party_manager/party_manager.html"); });
+            $("#closePageButton").click(closePage);
+        };
+
+        var onAPIClose = function () {
+            $(".page-selector").hide();
+            $("#saveManagerButton").off("click");
+            $("#characterManagerButton").off("click");
+            $("#partyManagerButton").off("click");
+            $("#closePageButton").off("click");
+        };
+
+        $("#general-error-close").click(function () {
+            $("#general-error").hide();
+            $("#general-error-text").html();
+        });
+
+        $(document).ready(function () {
+            init();
+        });
+    //]]>
+    </script>
+</body>
+</html>

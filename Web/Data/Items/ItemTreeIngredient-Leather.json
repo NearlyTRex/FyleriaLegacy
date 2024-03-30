@@ -1,0 +1,20 @@
+{
+    "Leather": {
+        "ItemDescription": "Leather",
+        "ItemName": "Leather",
+        "ItemType": "IngredientLeather",
+        "StatChanges": []
+    },
+    "BronzeStuddedLeather": {
+        "ItemDescription": "Bronze Studded Leather",
+        "ItemName": "Bronze Studded Leather",
+        "ItemType": "IngredientLeather",
+        "StatChanges": []
+    },
+    "IronStuddedLeather": {
+        "ItemDescription": "Iron Studded Leather",
+        "ItemName": "Iron Studded Leather",
+        "ItemType": "IngredientLeather",
+        "StatChanges": []
+    }
+}

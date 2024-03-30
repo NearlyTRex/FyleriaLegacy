@@ -1,0 +1,82 @@
+{
+    "BronzeScaleLeggings": {
+        "ItemDescription": "Bronze Scale Leggings",
+        "ItemName": "Bronze Scale Leggings",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "BronzeStuddedPants": {
+        "ItemDescription": "Bronze Studded Pants",
+        "ItemName": "Bronze Studded Pants",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "BronzeWeavePants": {
+        "ItemDescription": "Bronze Weave Pants",
+        "ItemName": "Bronze Weave Pants",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronScaleLeggings": {
+        "ItemDescription": "Iron Scale Leggings",
+        "ItemName": "Iron Scale Leggings",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.25,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronStuddedPants": {
+        "ItemDescription": "Iron Studded Pants",
+        "ItemName": "Iron Studded Pants",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.25,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "IronWeavePants": {
+        "ItemDescription": "Iron Weave Pants",
+        "ItemName": "Iron Weave Pants",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.25,
+        "StatChanges": []
+    },
+    "BronzeFylerianGreaves": {
+        "ItemDescription": "Bronze Fylerian Greaves",
+        "ItemName": "Bronze Fylerian Greaves",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "IronFylerianGreaves": {
+        "ItemDescription": "Iron Fylerian Greaves",
+        "ItemName": "Iron Fylerian Greaves",
+        "ItemType": "ArmorLegs",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.25,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    }
+}

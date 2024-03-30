@@ -1,0 +1,106 @@
+<html>
+<div class="container">
+    <form>
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Load Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="loadParty_partyID" placeholder="Party Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+                <textarea style="resize: none;" class="form-control" rows="3" id="loadParty_textarea" placeholder="Raw party data"></textarea>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="loadParty_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Unload Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="unloadParty_partyID" placeholder="Party Identifier"></input>
+            </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="unloadParty_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Set Current</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="setCurrentParty_partyID" placeholder="Party Identifier"></input>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="setCurrentParty_partytype">
+                    <option value="">Party Type...</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="setCurrentParty_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Create Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="createParty_partyID" placeholder="Party Identifier"></input>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="createParty_partytype">
+                    <option value="">Party Type...</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="current" id="createParty_setascurrent" checked="checked"></input>
+                    <label class="form-check-label" for="createParty_setascurrent">
+                        Set as current
+                    </label>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="createParty_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Edit Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="editParty_partyID" placeholder="Party Identifier"></input>
+            </div>
+            <div class="col-sm-2">
+                <select class="form-control" id="editParty_partytype">
+                    <option value="">Party Type...</option>
+                </select>
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-primary form-control" id="editParty_submit">Run</button>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Current Party</label>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="currentParty_ally" placeholder="Ally Party" readonly="readonly"></input>
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" id="currentParty_enemy" placeholder="Enemy Party" readonly="readonly"></input>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript" src="party_manager.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+    "use strict";
+    $(document).ready(function () {
+    });
+//]]>
+</script>
+</html>

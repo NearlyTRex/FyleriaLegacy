@@ -1,0 +1,82 @@
+{
+    "BronzeAmulet": {
+        "ItemDescription": "Bronze Amulet",
+        "ItemName": "Bronze Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "PeasantBronzeAmulet": {
+        "ItemDescription": "Peasant Bronze Amulet",
+        "ItemName": "Peasant Bronze Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "MerchantBronzeAmulet": {
+        "ItemDescription": "Merchant Bronze Amulet",
+        "ItemName": "Merchant Bronze Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "NobleBronzeAmulet": {
+        "ItemDescription": "Noble Bronze Amulet",
+        "ItemName": "Noble Bronze Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronAmulet": {
+        "ItemDescription": "Iron Amulet",
+        "ItemName": "Iron Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "PeasantIronAmulet": {
+        "ItemDescription": "Peasant Iron Amulet",
+        "ItemName": "Peasant Iron Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "MerchantIronAmulet": {
+        "ItemDescription": "Merchant Iron Amulet",
+        "ItemName": "Merchant Iron Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "NobleIronAmulet": {
+        "ItemDescription": "Noble Iron Amulet",
+        "ItemName": "Noble Iron Amulet",
+        "ItemType": "ArmorNeck",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    }
+}

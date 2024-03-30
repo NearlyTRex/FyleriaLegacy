@@ -1,0 +1,182 @@
+{
+    "Rank1": {
+        "SkillRank": 1,
+        "SkillType": "Threadbare",
+        "SkillName": "Apprentice Tailor I",
+        "SkillDescription": "Apprentice Tailor I",
+        "DataClass": "ApprenticeTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank2": {
+        "SkillRank": 2,
+        "SkillType": "Threadbare",
+        "SkillName": "Thread Adept I",
+        "SkillDescription": "Thread Adept I",
+        "DataClass": "ThreadAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank3": {
+        "SkillRank": 3,
+        "SkillType": "Threadbare",
+        "SkillName": "Lucky Pull I",
+        "SkillDescription": "Lucky Pull I",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank4": {
+        "SkillRank": 4,
+        "SkillType": "Threadbare",
+        "SkillName": "Adept Tailor I",
+        "SkillDescription": "Adept Tailor I",
+        "DataClass": "AdeptTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank5": {
+        "SkillRank": 5,
+        "SkillType": "Threadbare",
+        "SkillName": "Thorough Cleaner I",
+        "SkillDescription": "Thorough Cleaner I",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank6": {
+        "SkillRank": 6,
+        "SkillType": "Threadbare",
+        "SkillName": "Keen Eye I",
+        "SkillDescription": "Keen Eye I",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank7": {
+        "SkillRank": 7,
+        "SkillType": "Threadbare",
+        "SkillName": "Master Tailor I",
+        "SkillDescription": "Master Tailor I",
+        "DataClass": "MasterTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank8": {
+        "SkillRank": 8,
+        "SkillType": "Threadbare",
+        "SkillName": "Thread Master I",
+        "SkillDescription": "Thread Master I",
+        "DataClass": "ThreadMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank9": {
+        "SkillRank": 9,
+        "SkillType": "Threadbare",
+        "SkillName": "Lucky Pull II",
+        "SkillDescription": "Lucky Pull II",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank10": {
+        "SkillRank": 10,
+        "SkillType": "Threadbare",
+        "SkillName": "Obsessed Cleaner I",
+        "SkillDescription": "Obsessed Cleaner I",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank11": {
+        "SkillRank": 11,
+        "SkillType": "Threadbare",
+        "SkillName": "Apprentice Tailor II",
+        "SkillDescription": "Apprentice Tailor II",
+        "DataClass": "ApprenticeTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank12": {
+        "SkillRank": 12,
+        "SkillType": "Threadbare",
+        "SkillName": "Thread Adept II",
+        "SkillDescription": "Thread Adept II",
+        "DataClass": "ThreadAdept",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank13": {
+        "SkillRank": 13,
+        "SkillType": "Threadbare",
+        "SkillName": "Lucky Pull III",
+        "SkillDescription": "Lucky Pull III",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank14": {
+        "SkillRank": 14,
+        "SkillType": "Threadbare",
+        "SkillName": "Adept Tailor II",
+        "SkillDescription": "Adept Tailor II",
+        "DataClass": "AdeptTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank15": {
+        "SkillRank": 15,
+        "SkillType": "Threadbare",
+        "SkillName": "Thorough Cleaner II",
+        "SkillDescription": "Thorough Cleaner II",
+        "DataClass": "ThoroughCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank16": {
+        "SkillRank": 16,
+        "SkillType": "Threadbare",
+        "SkillName": "Keen Eye II",
+        "SkillDescription": "Keen Eye II",
+        "DataClass": "KeenEye",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank17": {
+        "SkillRank": 17,
+        "SkillType": "Threadbare",
+        "SkillName": "Master Tailor II",
+        "SkillDescription": "Master Tailor II",
+        "DataClass": "MasterTailor",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank18": {
+        "SkillRank": 18,
+        "SkillType": "Threadbare",
+        "SkillName": "Thread Master II",
+        "SkillDescription": "Thread Master II",
+        "DataClass": "ThreadMaster",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank19": {
+        "SkillRank": 19,
+        "SkillType": "Threadbare",
+        "SkillName": "Lucky Pull IV",
+        "SkillDescription": "Lucky Pull IV",
+        "DataClass": "LuckyPull",
+        "Recipes": [],
+        "StatChanges": []
+    },
+    "Rank20": {
+        "SkillRank": 20,
+        "SkillType": "Threadbare",
+        "SkillName": "Obsessed Cleaner II",
+        "SkillDescription": "Obsessed Cleaner II",
+        "DataClass": "ObsessedCleaner",
+        "Recipes": [],
+        "StatChanges": []
+    }
+}

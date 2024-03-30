@@ -1,0 +1,242 @@
+{
+    "BronzeBattleaxe": {
+        "ItemDescription": "Bronze Battleaxe",
+        "ItemName": "Bronze Battleaxe",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlice",
+            "WeaponDecapitate",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeDagger": {
+        "ItemDescription": "Bronze Dagger",
+        "ItemName": "Bronze Dagger",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponCleave",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeDaikatana": {
+        "ItemDescription": "Bronze Daikatana",
+        "ItemName": "Bronze Daikatana",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlit",
+            "WeaponDecapitate",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeGreatsword": {
+        "ItemDescription": "Bronze Greatsword",
+        "ItemName": "Bronze Greatsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponDecapitate",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeKatana": {
+        "ItemDescription": "Bronze Katana",
+        "ItemName": "Bronze Katana",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponCleave",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeLongsword": {
+        "ItemDescription": "Bronze Longsword",
+        "ItemName": "Bronze Longsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponCleave",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeScimitar": {
+        "ItemDescription": "Bronze Scimitar",
+        "ItemName": "Bronze Scimitar",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponDecapitate",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "BronzeShortsword": {
+        "ItemDescription": "Bronze Shortsword",
+        "ItemName": "Bronze Shortsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponCleave",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.5,
+        "StatChanges": []
+    },
+    "IronBattleaxe": {
+        "ItemDescription": "Iron Battleaxe",
+        "ItemName": "Iron Battleaxe",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlice",
+            "WeaponDecapitate",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronDagger": {
+        "ItemDescription": "Iron Dagger",
+        "ItemName": "Iron Dagger",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponCleave",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronDaikatana": {
+        "ItemDescription": "Iron Daikatana",
+        "ItemName": "Iron Daikatana",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlit",
+            "WeaponDecapitate",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronGreatsword": {
+        "ItemDescription": "Iron Greatsword",
+        "ItemName": "Iron Greatsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponDecapitate",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronKatana": {
+        "ItemDescription": "Iron Katana",
+        "ItemName": "Iron Katana",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSever",
+            "WeaponSlit",
+            "WeaponCleave",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronLongsword": {
+        "ItemDescription": "Iron Longsword",
+        "ItemName": "Iron Longsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponCleave",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronScimitar": {
+        "ItemDescription": "Iron Scimitar",
+        "ItemName": "Iron Scimitar",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponDecapitate",
+            "WeaponRiposte"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    },
+    "IronShortsword": {
+        "ItemDescription": "Iron Shortsword",
+        "ItemName": "Iron Shortsword",
+        "ItemType": "WeaponSlash",
+        "ActionTypes": [
+            "WeaponSlash",
+            "WeaponSlice",
+            "WeaponCleave",
+            "WeaponParry"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0,
+        "SlashAttackPercent": 0.55,
+        "StatChanges": []
+    }
+}

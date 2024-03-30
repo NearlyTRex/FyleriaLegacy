@@ -1,0 +1,4 @@
+Version 1.00 - November 29, 2015
+=================================
+- First official version
+- Moving artwork to parent folder

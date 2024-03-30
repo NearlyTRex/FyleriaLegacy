@@ -1,0 +1,82 @@
+{
+    "BronzeRing": {
+        "ItemDescription": "Bronze Ring",
+        "ItemName": "Bronze Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "PeasantBronzeRing": {
+        "ItemDescription": "Peasant Bronze Ring",
+        "ItemName": "Peasant Bronze Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "MerchantBronzeRing": {
+        "ItemDescription": "Merchant Bronze Ring",
+        "ItemName": "Merchant Bronze Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "NobleBronzeRing": {
+        "ItemDescription": "Noble Bronze Ring",
+        "ItemName": "Noble Bronze Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "IronRing": {
+        "ItemDescription": "Iron Ring",
+        "ItemName": "Iron Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "PeasantIronRing": {
+        "ItemDescription": "Peasant Iron Ring",
+        "ItemName": "Peasant Iron Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "MerchantIronRing": {
+        "ItemDescription": "Merchant Iron Ring",
+        "ItemName": "Merchant Iron Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    },
+    "NobleIronRing": {
+        "ItemDescription": "Noble Iron Ring",
+        "ItemName": "Noble Iron Ring",
+        "ItemType": "ArmorFinger",
+        "BluntDefendPercent": 0,
+        "PierceDefendPercent": 0,
+        "SlashDefendPercent": 0,
+        "MagicDefendPercent": 0,
+        "StatChanges": []
+    }
+}

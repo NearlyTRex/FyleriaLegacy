@@ -1,0 +1,242 @@
+{
+    "BronzeBowgun": {
+        "ItemDescription": "Bronze Bowgun",
+        "ItemName": "Bronze Bowgun",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeHandCrossbow": {
+        "ItemDescription": "Bronze Hand Crossbow",
+        "ItemName": "Bronze Hand Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeHeavyCrossbow": {
+        "ItemDescription": "Bronze Heavy Crossbow",
+        "ItemName": "Bronze Heavy Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponShoot",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeLightCrossbow": {
+        "ItemDescription": "Bronze Light Crossbow",
+        "ItemName": "Bronze Light Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeLongbow": {
+        "ItemDescription": "Bronze Longbow",
+        "ItemName": "Bronze Longbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeShiv": {
+        "ItemDescription": "Bronze Shiv",
+        "ItemName": "Bronze Shiv",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeShortbow": {
+        "ItemDescription": "Bronze Shortbow",
+        "ItemName": "Bronze Shortbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponImpale",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "BronzeSpear": {
+        "ItemDescription": "Bronze Spear",
+        "ItemName": "Bronze Spear",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.5,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronBowgun": {
+        "ItemDescription": "Iron Bowgun",
+        "ItemName": "Iron Bowgun",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronHandCrossbow": {
+        "ItemDescription": "Iron Hand Crossbow",
+        "ItemName": "Iron Hand Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronHeavyCrossbow": {
+        "ItemDescription": "Iron Heavy Crossbow",
+        "ItemName": "Iron Heavy Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponShoot",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronLightCrossbow": {
+        "ItemDescription": "Iron Light Crossbow",
+        "ItemName": "Iron Light Crossbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronLongbow": {
+        "ItemDescription": "Iron Longbow",
+        "ItemName": "Iron Longbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponShoot",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronShiv": {
+        "ItemDescription": "Iron Shiv",
+        "ItemName": "Iron Shiv",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronShortbow": {
+        "ItemDescription": "Iron Shortbow",
+        "ItemName": "Iron Shortbow",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponDrill",
+            "WeaponImpale",
+            "WeaponCriticalShot",
+            "WeaponCounter"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    },
+    "IronSpear": {
+        "ItemDescription": "Iron Spear",
+        "ItemName": "Iron Spear",
+        "ItemType": "WeaponPierce",
+        "ActionTypes": [
+            "WeaponPierce",
+            "WeaponImpale",
+            "WeaponStealthStrike",
+            "WeaponDodge"
+        ],
+        "BluntAttackPercent": 0,
+        "PierceAttackPercent": 0.55,
+        "SlashAttackPercent": 0,
+        "StatChanges": []
+    }
+}

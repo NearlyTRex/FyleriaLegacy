@@ -1,0 +1,82 @@
+{
+    "BronzeFylerianGauntlets": {
+        "ItemDescription": "Bronze Fylerian Gauntlets",
+        "ItemName": "Bronze Fylerian Gauntlets",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.05,
+        "StatChanges": []
+    },
+    "BronzeScaleGauntlets": {
+        "ItemDescription": "Bronze Scale Gauntlets",
+        "ItemName": "Bronze Scale Gauntlets",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.05,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "BronzeWeaveGloves": {
+        "ItemDescription": "Bronze Weave Gloves",
+        "ItemName": "Bronze Weave Gloves",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.05,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronFylerianGauntlets": {
+        "ItemDescription": "Iron Fylerian Gauntlets",
+        "ItemName": "Iron Fylerian Gauntlets",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.2,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "IronScaleGauntlets": {
+        "ItemDescription": "Iron Scale Gauntlets",
+        "ItemName": "Iron Scale Gauntlets",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.1,
+        "PierceDefendPercent": 0.2,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    },
+    "IronWeaveGloves": {
+        "ItemDescription": "Iron Weave Gloves",
+        "ItemName": "Iron Weave Gloves",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.15,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.2,
+        "StatChanges": []
+    },
+    "BronzeStuddedBracers": {
+        "ItemDescription": "Bronze Studded Bracers",
+        "ItemName": "Bronze Studded Bracers",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.15,
+        "PierceDefendPercent": 0.05,
+        "SlashDefendPercent": 0.1,
+        "MagicDefendPercent": 0.1,
+        "StatChanges": []
+    },
+    "IronStuddedBracers": {
+        "ItemDescription": "Iron Studded Bracers",
+        "ItemName": "Iron Studded Bracers",
+        "ItemType": "ArmorHands",
+        "BluntDefendPercent": 0.2,
+        "PierceDefendPercent": 0.1,
+        "SlashDefendPercent": 0.15,
+        "MagicDefendPercent": 0.15,
+        "StatChanges": []
+    }
+}
